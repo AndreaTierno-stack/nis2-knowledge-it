@@ -1,0 +1,18 @@
+# Source documents (PDFs etc.) are not redistributed
+raw/
+
+# Plain-text extractions of the source documents (same redistribution concern as raw/)
+_tmp/
+
+# Obsidian per-device workspace state
+.obsidian/workspace*.json
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Agent memory (local only, not published)
+memory/
+
+# Claude Code local settings (per-machine, not published)
+.claude/settings.local.json
