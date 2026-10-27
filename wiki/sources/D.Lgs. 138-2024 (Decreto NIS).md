@@ -5,6 +5,7 @@ scope: both
 source_type: paper
 source_path: raw/articles/Decreto NIS2.pdf
 url: https://www.gazzettaufficiale.it/eli/id/2024/10/01/24G00155/sg
+provenance_note: "Riscontro del 2026-10-27 su Normattiva, testo vigente (urn:nir:stato:decreto.legislativo:2024-09-04;138, vigenza 2026-10-27): Allegato III, art. 3 cc. 6-7, art. 4 cc. 2-3, art. 6 cc. 1-3, art. 40 c. 2 lett. b) e c. 5 lett. a) identici parola per parola al PDF; articoli e allegato in versione 1, testo in vigore dal 2024-10-16. L'intestazione 'SCHEMA DI DECRETO LEGISLATIVO' degli allegati compare anche nel testo Normattiva. DEC-007 parte A."
 author: Repubblica Italiana — Governo
 date_published: 2024-09-04
 date_ingested: 2026-04-29

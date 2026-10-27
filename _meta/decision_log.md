@@ -87,3 +87,21 @@ Convenzione stato: `ATTUATA` | `PIANIFICATA` | `REVOCATA`.
 **Motivazione:** il nodo sorgente della norma primaria non attestava un comma che un nodo derivato (FAQ) citava. Il corpus del tool cita già art. 3 c. 6 e non cambia: nessuna voce in `nis2-check/corpus/CHANGELOG.md`.
 
 **Impatto operativo:** una riga aggiunta al nodo, frontmatter invariato. Nessuna modifica a `index.md`. Voce corrispondente in `log.md`.
+
+---
+
+## [2026-10-27] DEC-007 — Ambito soggettivo della PA nel D.Lgs. 138/2024
+
+### Parte A — Riscontro del PDF sulla fonte vigente
+
+**Stato:** ATTUATA (2026-10-27)
+
+**Nodo:** [[sources/D.Lgs. 138-2024 (Decreto NIS)]] — `source_path` invariato (`raw/articles/Decreto NIS2.pdf`).
+
+**Contesto:** gli allegati del PDF portano l'intestazione "SCHEMA DI DECRETO LEGISLATIVO DI RECEPIMENTO DELLA NIS2". Prima di correggere l'ambito PA serviva escludere che il PDF riproducesse uno schema diverso dal testo in vigore.
+
+**Riscontro:** testo vigente scaricato da Normattiva (urn:nir:stato:decreto.legislativo:2024-09-04;138, vigenza 2026-10-27; GU n. 230 del 2024-10-01). Confronto parola per parola, con normalizzazione dei soli spazi e a capo, di: Allegato III (135 parole), art. 3 c. 6 (34) e c. 7 (92), art. 4 c. 2 (57) e c. 3 (79), art. 6 c. 1 (159), c. 2 (42) e c. 3 (31), art. 40 c. 2 lett. b) (24) e c. 5 lett. a) (24). Esito: **identico**, nessuna differenza, refuso "individuatele" compreso. Articoli 3, 4, 6, 40 e Allegato III in versione 1, testo in vigore dal 2024-10-16. L'intestazione "SCHEMA DI DECRETO LEGISLATIVO" compare anche nell'Allegato III su Normattiva: appartiene al testo pubblicato, non indica una bozza.
+
+**Decisione:** nessun file nuovo in `raw/`, PDF non archiviato. Nota di provenienza (`provenance_note`) aggiunta al frontmatter del nodo. Credito stop-and-ingest consumato su indicazione dell'autore: contatore a 0 fino al pre-rilascio v0.1.0 (registrato in `nis2-check/docs/STATUS.md`).
+
+**Impatto operativo:** nessuna modifica a `index.md`. Voce corrispondente in `log.md`. Parte B (correzioni di contenuto) eseguita sul testo così verificato.

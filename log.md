@@ -756,3 +756,8 @@ Trovati: 1 lacuna di attestazione. [[sources/D.Lgs. 138-2024 (Decreto NIS)]] (Pu
 Verifica: comma estratto con `pdftotext -enc UTF-8` da `raw/articles/Decreto NIS2.pdf`. La citazione nel nodo coincide parola per parola con il testo del PDF. Il nodo FAQ è una parafrasi coerente con il comma.
 Azioni: aggiunto sotto-punto "Art. 3, c. 6 — Pubbliche amministrazioni" con citazione testuale e rinvio al nodo FAQ (1 riga). Frontmatter e `scope: both` invariati, resto del nodo invariato. Registrata come DEC-006 in [[_meta/decision_log]]. Contatori `index.md` invariati.
 Non corretto, da valutare: lo stesso punto Ambito elenca "PA centrali" tra i soggetti inclusi indipendentemente dalle soglie, mentre l'Allegato III comprende anche amministrazioni regionali e locali.
+
+## [2026-10-27] decision | DEC-007 parte A: riscontro D.Lgs. 138/2024 su Normattiva
+Contesto: gli allegati di `raw/articles/Decreto NIS2.pdf` portano l'intestazione "SCHEMA DI DECRETO LEGISLATIVO". Riscontro sul testo vigente prima della correzione dell'ambito PA (stop-and-ingest, ultimo credito).
+Esito: Allegato III, art. 3 cc. 6-7, art. 4 cc. 2-3, art. 6 cc. 1-3, art. 40 c. 2 lett. b) e c. 5 lett. a) identici parola per parola tra Normattiva (vigenza 2026-10-27, versione 1, in vigore dal 2024-10-16) e PDF. L'intestazione "SCHEMA" compare anche su Normattiva.
+Pagine aggiornate: [[sources/D.Lgs. 138-2024 (Decreto NIS)]] (`provenance_note` nel frontmatter), [[_meta/decision_log]] (DEC-007 parte A). Nessun file nuovo, `source_path` invariato, contatori `index.md` invariati.
