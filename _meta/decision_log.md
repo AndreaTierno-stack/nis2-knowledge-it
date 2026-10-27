@@ -71,3 +71,19 @@ Convenzione stato: `ATTUATA` | `PIANIFICATA` | `REVOCATA`.
 **Condizioni:** README con disclaimer e stato di verifica; `raw/` e `_tmp/` mai pubblicati; riferimenti personali generalizzati.
 
 **Impatto operativo:** nessuna modifica a `index.md`. Voce corrispondente in `log.md`.
+
+---
+
+## [2026-10-27] DEC-006 — Correzione di contenuto: attestazione art. 3 c. 6 nel nodo D.Lgs. 138/2024
+
+**Stato:** ATTUATA (2026-10-27)
+
+**Nodo:** [[sources/D.Lgs. 138-2024 (Decreto NIS)]] — `scope: both` invariato.
+
+**Classe:** correzione di contenuto (stessa classe delle correzioni `lint` del 2026-10-26 su [[concepts/Size-cap rule]] e [[sources/Direttiva (UE) 2022-2555 (NIS2)]]). Non è un ingest: nessuna fonte nuova, nessun nodo creato.
+
+**Decisione:** integrare nel nodo l'art. 3 c. 6 D.Lgs. 138/2024 (applicazione alle pubbliche amministrazioni dell'Allegato III indipendentemente dalla dimensione), con citazione testuale verificata sul PDF (`raw/articles/Decreto NIS2.pdf`) e rinvio a [[sources/FAQ NIS - Settori, sottosettori e tipologie di soggetto]], che già lo attestava.
+
+**Motivazione:** il nodo sorgente della norma primaria non attestava un comma che un nodo derivato (FAQ) citava. Il corpus del tool cita già art. 3 c. 6 e non cambia: nessuna voce in `nis2-check/corpus/CHANGELOG.md`.
+
+**Impatto operativo:** una riga aggiunta al nodo, frontmatter invariato. Nessuna modifica a `index.md`. Voce corrispondente in `log.md`.
