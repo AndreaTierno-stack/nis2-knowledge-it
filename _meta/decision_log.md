@@ -105,3 +105,17 @@ Convenzione stato: `ATTUATA` | `PIANIFICATA` | `REVOCATA`.
 **Decisione:** nessun file nuovo in `raw/`, PDF non archiviato. Nota di provenienza (`provenance_note`) aggiunta al frontmatter del nodo. Credito stop-and-ingest consumato su indicazione dell'autore: contatore a 0 fino al pre-rilascio v0.1.0 (registrato in `nis2-check/docs/STATUS.md`).
 
 **Impatto operativo:** nessuna modifica a `index.md`. Voce corrispondente in `log.md`. Parte B (correzioni di contenuto) eseguita sul testo così verificato.
+
+### Parte B — Correzione di contenuto: ambito PA
+
+**Stato:** ATTUATA (2026-10-27)
+
+**Classe:** correzione di contenuto (stessa classe di DEC-006 e delle correzioni `lint` del 2026-10-26). Non è un ingest.
+
+**Nodi:** [[sources/D.Lgs. 138-2024 (Decreto NIS)]], [[concepts/Ambito di applicazione NIS2]], [[concepts/Identificazione dei soggetti NIS]], [[concepts/Size-cap rule]], [[concepts/Settori altamente critici e critici]], [[concepts/Perimetro Legge 90-2024]], [[concepts/Soggetti essenziali e importanti]]; nota redazionale in [[sources/FAQ NIS - Ambito]]. Scope dei nodi invariato (tutti `both`).
+
+**Decisione:** sostituire "PA centrali" con la PA dell'Allegato III lett. a)-d) (art. 3 c. 6), con rinvio al nodo D.Lgs., che ora riporta le 15 categorie testuali, l'estensione con DPCM (art. 3 c. 7, art. 40 c. 2 lett. b), le esclusioni (art. 4 cc. 2-3) e le qualifiche (art. 6 c. 1 lett. e) e cc. 2-3).
+
+**Nota:** la restrizione è nata in sintesi (*inferenza dell'agente:* la qualifica di essenziale delle PA centrali, art. 6 c. 1 lett. e), letta come perimetro dell'intero rientro PA) e si è propagata in sette nodi e nel corpus del tool (categoria d) ridotta agli enti a struttura associativa, qualifiche a) e b)). Seconda occorrenza di una restrizione di sintesi propagata, dopo Size-cap rule del 2026-10-26.
+
+**Impatto operativo:** `index.md` solo nella riga "Ultimo aggiornamento", contatori invariati. README, sezione "Stato di verifica": riga datata. Voce corrispondente in `log.md`. Corpus non modificato: pacchetto C1-C6 registrato come punto aperto in `nis2-check/docs/STATUS.md`, per corpus 0.5.0 dopo S2.

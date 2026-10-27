@@ -68,6 +68,8 @@ A questi si aggiungono 4 punti marcati "da chiarire" (D.Lgs. 138-2024, FAQ Aggio
 
 **Ultimo aggiornamento di contenuto:** 2026-05-23 (Wave 7, L. 90/2024). Correzione di contenuto del 2026-10-26 (lint: Size-cap rule allineata alla FAQ AMB.DI.1) e manutenzione, registrate in `log.md`.
 
+**Correzione PA (2026-10-27):** sette nodi riducevano la PA che rientra a prescindere dalla dimensione alle sole "PA centrali" (in un caso "PA regionali per i servizi rilevanti"; in un altro la PA compariva come settore dell'Allegato I). Ora riportano la PA dell'Allegato III lett. a)-d) (centrali, regionali, locali, altri soggetti pubblici: 15 categorie), le esclusioni dell'art. 4 cc. 2-3 e le qualifiche dell'art. 6 (lett. a) essenziale, lett. b)-d) importante salvo individuazione ACN). Fonte: D.Lgs. 138/2024, art. 3 c. 6 e Allegato III, riscontrati sul testo vigente Normattiva (DEC-007).
+
 ## Cosa non è
 
 Non è uno strumento di valutazione: non dice se un soggetto rientra o meno nel perimetro NIS2. Un tool di pre-screening che usa questo corpus è in sviluppo in un repository separato e non è ancora rilasciato.

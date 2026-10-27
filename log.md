@@ -761,3 +761,16 @@ Non corretto, da valutare: lo stesso punto Ambito elenca "PA centrali" tra i sog
 Contesto: gli allegati di `raw/articles/Decreto NIS2.pdf` portano l'intestazione "SCHEMA DI DECRETO LEGISLATIVO". Riscontro sul testo vigente prima della correzione dell'ambito PA (stop-and-ingest, ultimo credito).
 Esito: Allegato III, art. 3 cc. 6-7, art. 4 cc. 2-3, art. 6 cc. 1-3, art. 40 c. 2 lett. b) e c. 5 lett. a) identici parola per parola tra Normattiva (vigenza 2026-10-27, versione 1, in vigore dal 2024-10-16) e PDF. L'intestazione "SCHEMA" compare anche su Normattiva.
 Pagine aggiornate: [[sources/D.Lgs. 138-2024 (Decreto NIS)]] (`provenance_note` nel frontmatter), [[_meta/decision_log]] (DEC-007 parte A). Nessun file nuovo, `source_path` invariato, contatori `index.md` invariati.
+
+## [2026-10-27] lint | Ambito PA: "PA centrali" → PA dell'Allegato III lett. a)-d) (DEC-007 parte B)
+Contesto: verifica di lettura sull'ambito soggettivo della PA (testo del D.Lgs. 138/2024 riscontrato su Normattiva, DEC-007 parte A). Correzioni con conferma dell'autore.
+Trovati: 1 restrizione propagata. Sette nodi riducevano la PA che rientra a prescindere dalla dimensione alle "PA centrali"; l'art. 3 c. 6 rinvia all'Allegato III, lett. a)-d), 15 categorie.
+Pagine aggiornate:
+- [[sources/D.Lgs. 138-2024 (Decreto NIS)]]: punto Ambito riscritto (rientri per legge cc. 5, 6 e 10 / individuazioni ACN cc. 8, 9 e 13; Allegato I a 10 settori); sotto-punti Allegato III (15 categorie testuali), art. 3 c. 7 e art. 40 c. 2 lett. b), art. 4 cc. 2-3, art. 6 c. 1 lett. e) e cc. 2-3; sanzioni PA allineate all'art. 38 c. 9 lett. c)-d) e c. 11 lett. c)-d).
+- [[concepts/Ambito di applicazione NIS2]]: Definizione punto 3, Sviluppo (riga PA e Esclusioni "Art. 3" → "Art. 4"), lista "a prescindere dalla dimensione" (via "PA regionali per i servizi rilevanti").
+- [[concepts/Identificazione dei soggetti NIS]], [[concepts/Size-cap rule]], [[concepts/Perimetro Legge 90-2024]]: "PA centrali" → PA dell'Allegato III lett. a)-d) con rinvio al nodo D.Lgs.
+- [[concepts/Settori altamente critici e critici]]: la PA esce dall'Allegato I (Spazio = 10; "11 nella direttiva, 10 nel D.Lgs. 138"), nota sulla PA all'Allegato III.
+- [[concepts/Soggetti essenziali e importanti]]: PA lett. a) essenziale (art. 6 c. 1 lett. e); PA lett. b)-d) importante salvo art. 6 c. 2.
+- [[sources/FAQ NIS - Ambito]]: nota redazionale dopo `AMB.PU.1` (Regioni tra le locali, lett. d) non elencata), testo fedele alla FAQ invariato.
+- `README.md` (Stato di verifica): riga datata sulla correzione PA. `index.md`: riga "Ultimo aggiornamento". Campo `updated: 2026-10-27` nei 6 concept.
+Note: restrizione nata in sintesi e propagata in sette nodi e nel corpus del tool (seconda occorrenza dopo Size-cap rule del 2026-10-26). Corpus non toccato: pacchetto C1-C6 per corpus 0.5.0 dopo S2 (STATUS di nis2-check). Contatori `index.md` invariati.

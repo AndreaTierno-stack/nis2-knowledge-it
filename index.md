@@ -3,7 +3,7 @@
 > Catalogo content-oriented dell'intera wiki. Aggiornato a ogni ingest/lint.
 > Contatori `(N)` aggiornati automaticamente dall'agente.
 
-**Ultimo aggiornamento:** 2026-10-26 (housekeeping pre-pubblicazione, nessuna modifica di contenuto)
+**Ultimo aggiornamento:** 2026-10-27 (correzione di contenuto: ambito PA, DEC-007; contatori invariati)
 **Dominio attivo:** NIS2 — Direttiva (UE) 2022/2555, D.Lgs. 138/2024, corpus regolatorio ACN, + Reg. UE 2024/2690 (DSP), + ENISA TIG/Mapping Table/Mapping NIS2-ECSF, + NIST CSF 2.0, + ISO/IEC 27000-series, + FNCDP 2025 v2.1, + ECSF, **+ L. 90/2024 (cybersicurezza nazionale + reati informatici)**.
 **Scope tagging**: tutti i nodi toccati dai cluster Wave 6 + Wave 7 carry `scope:` (`nis2_tool` / `grc_personal` / `both`) nel frontmatter — vedi [[_meta/wave_reports/Wave_6_2026-05-18]] e [[_meta/wave_reports/Wave_6_5_PLANNED]].
 
