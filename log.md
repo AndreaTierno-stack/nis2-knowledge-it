@@ -779,3 +779,11 @@ Note: restrizione nata in sintesi e propagata in sette nodi e nel corpus del too
 Trovati: 1 imprecisione. [[concepts/Ambito di applicazione NIS2]] (Sviluppo, riga PA) attribuiva alla direttiva l'inclusione "obbligatoria" delle amministrazioni centrali e regionali. Testo della direttiva (`raw/articles/Publications Office.pdf`, art. 2 par. 2 lett. f) punti i)-ii) e par. 5 lett. a)): centrali come definite dal diritto nazionale; regionali solo a seguito di una valutazione basata sul rischio; locali per scelta dello Stato membro. Art. 3 par. 1 lett. d): essenziali le PA del punto i).
 Azioni: riga riscritta su due livelli, direttiva (citazione art. 2 par. 2 lett. f) e par. 5 lett. a)) e decreto (art. 3 c. 6, Allegato III lett. a)-d) per legge). La "PA regionali (per i servizi rilevanti)" rimossa il 2026-10-27 dalla lista del decreto torna come livello direttiva. `updated: 2026-10-28`. Resto del nodo invariato.
 Note: [[sources/Direttiva (UE) 2022-2555 (NIS2)]] non riporta l'art. 2 par. 2 lett. f) e par. 5: la verifica è stata fatta sul testo in `raw/`. Contatori `index.md` invariati.
+
+## [2026-10-28] lint | Direttiva NIS2: PA (art. 2 e art. 3) attestata nel nodo; DEC-007 A nota sul credito; Ambito senza inciso NIS1
+Trovati: 1 lacuna di attestazione, 1 inciso non attestabile, 1 incoerenza di registro.
+Azioni:
+- [[sources/Direttiva (UE) 2022-2555 (NIS2)]]: nuovo punto chiave "Pubblica amministrazione" con citazione testuale di art. 2 par. 2 lett. f) punti i)-ii), art. 2 par. 5 lett. a) e art. 3 par. 1 lett. d) (testo in `raw/articles/Publications Office.pdf`, verificato il 2026-10-28) e rinvio a [[concepts/Ambito di applicazione NIS2]] (Sviluppo, riga PA). Frontmatter e `scope: both` invariati salvo `updated: 2026-10-28` (aggiunto, assente).
+- [[concepts/Ambito di applicazione NIS2]]: rimosso l'inciso "NIS1 lasciava facoltà agli Stati" (la Dir. 2016/1148 non è tra le fonti).
+- [[_meta/decision_log]] DEC-007 parte A: nota datata, riscontro con esito no-op che non consuma il credito stop-and-ingest (DEC-003), residuo 1. Resto della voce invariato.
+Note: `nis2-check/docs/STATUS.md` riporta ancora il contatore a 0: da allineare in nis2-check. Contatori `index.md` invariati.

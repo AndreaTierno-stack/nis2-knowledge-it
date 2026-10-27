@@ -21,7 +21,7 @@ In Italia disciplinato dal [[sources/D.Lgs. 138-2024 (Decreto NIS)|D.Lgs. 138/20
 ## Sviluppo
 
 - **Espansione rispetto a NIS1**: passaggio da ~7 settori a 18 settori (11 altamente critici + 7 critici).
-- **Inclusione esplicita della PA**: novità rilevante. NIS1 lasciava facoltà agli Stati. Due livelli:
+- **Inclusione esplicita della PA**: novità rilevante. Due livelli:
   - *Direttiva* ([[sources/Direttiva (UE) 2022-2555 (NIS2)]], art. 2 par. 2 lett. f) e par. 5 lett. a)): enti dell'amministrazione centrale "quale definito da uno Stato membro conformemente al diritto nazionale" (punto i), essenziali ex art. 3 par. 1 lett. d)); enti a livello regionale che, "a seguito di una valutazione basata sul rischio", forniscono servizi la cui perturbazione potrebbe avere un impatto significativo su attività sociali o economiche critiche (punto ii); enti a livello locale solo se lo Stato membro lo prevede (par. 5 lett. a)).
   - *Decreto* ([[sources/D.Lgs. 138-2024 (Decreto NIS)|D.Lgs. 138/2024]], art. 3 c. 6): tutte le PA dell'Allegato III lett. a)-d) per legge, a prescindere dalla dimensione, comprese le amministrazioni regionali della lett. b) senza valutazione del rischio e le amministrazioni locali della lett. c).
 - **Inclusione di nuovi attori**: fornitori di servizi gestiti (MSP/MSSP), data center, CDN, fornitori di servizi cloud, motori di ricerca, mercati online, social network, gestione rifiuti, alimentare, manifattura ad alta intensità tecnologica, spazio.

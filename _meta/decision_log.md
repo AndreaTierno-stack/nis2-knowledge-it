@@ -106,6 +106,8 @@ Convenzione stato: `ATTUATA` | `PIANIFICATA` | `REVOCATA`.
 
 **Impatto operativo:** nessuna modifica a `index.md`. Voce corrispondente in `log.md`. Parte B (correzioni di contenuto) eseguita sul testo così verificato.
 
+**Nota (2026-10-28):** riscontro con esito no-op: non consuma il credito stop-and-ingest (DEC-003); residuo 1.
+
 ### Parte B — Correzione di contenuto: ambito PA
 
 **Stato:** ATTUATA (2026-10-27)
