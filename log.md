@@ -774,3 +774,8 @@ Pagine aggiornate:
 - [[sources/FAQ NIS - Ambito]]: nota redazionale dopo `AMB.PU.1` (Regioni tra le locali, lett. d) non elencata), testo fedele alla FAQ invariato.
 - `README.md` (Stato di verifica): riga datata sulla correzione PA. `index.md`: riga "Ultimo aggiornamento". Campo `updated: 2026-10-27` nei 6 concept.
 Note: restrizione nata in sintesi e propagata in sette nodi e nel corpus del tool (seconda occorrenza dopo Size-cap rule del 2026-10-26). Corpus non toccato: pacchetto C1-C6 per corpus 0.5.0 dopo S2 (STATUS di nis2-check). Contatori `index.md` invariati.
+
+## [2026-10-28] lint | Ambito di applicazione NIS2: PA su due livelli (direttiva / decreto)
+Trovati: 1 imprecisione. [[concepts/Ambito di applicazione NIS2]] (Sviluppo, riga PA) attribuiva alla direttiva l'inclusione "obbligatoria" delle amministrazioni centrali e regionali. Testo della direttiva (`raw/articles/Publications Office.pdf`, art. 2 par. 2 lett. f) punti i)-ii) e par. 5 lett. a)): centrali come definite dal diritto nazionale; regionali solo a seguito di una valutazione basata sul rischio; locali per scelta dello Stato membro. Art. 3 par. 1 lett. d): essenziali le PA del punto i).
+Azioni: riga riscritta su due livelli, direttiva (citazione art. 2 par. 2 lett. f) e par. 5 lett. a)) e decreto (art. 3 c. 6, Allegato III lett. a)-d) per legge). La "PA regionali (per i servizi rilevanti)" rimossa il 2026-10-27 dalla lista del decreto torna come livello direttiva. `updated: 2026-10-28`. Resto del nodo invariato.
+Note: [[sources/Direttiva (UE) 2022-2555 (NIS2)]] non riporta l'art. 2 par. 2 lett. f) e par. 5: la verifica è stata fatta sul testo in `raw/`. Contatori `index.md` invariati.
