@@ -8,12 +8,13 @@ url: https://www.acn.gov.it/portale/faq-nis-settori-sottosettori-e-tipologie-di-
 author: Agenzia per la Cybersicurezza Nazionale
 date_published: 2026
 date_ingested: 2026-04-29
+updated: 2026-10-28
 tags: [NIS2, ACN, FAQ, settori, sottosettori, allegato I, allegato II, allegato III, allegato IV, tipologie di soggetto]
 ---
 
 ## TL;DR
 
-FAQ ACN sui **settori e tipologie di soggetto** rientranti nell'ambito NIS. È la FAQ più estesa del corpus (~70 codici, da `A1.1.a.1` a `A4.3.5`) e fornisce, settore per settore, l'**elenco operativo dei provvedimenti unionali** che identificano le tipologie di soggetto: per ciascun sottosettore la struttura è "**direttiva/regolamento UE → tipologia di soggetto → criterio dimensionale (Racc. 2003/361/CE) → essenziale/importante**". Coperti tutti i 10 settori altamente critici (Allegato I) + 7 settori critici (Allegato II) + Allegato III (PA) + Allegato IV (individuazione autoritativa). **Eccezioni di prevalenza**: Acqua potabile (solo distributore), Acque reflue, Gestione rifiuti — non rientrano se l'attività non è prevalente. **Tipologie size-blind** (tutte le dimensioni, anche micro/piccole): fornitori servizi fiduciari qualificati (essenziali a prescindere), DNS/TLD/registrar (essenziali), reti+servizi comunicazione elettronica, fornitori digitali Allegato II (rivenditori nomi dominio), prestatori di servizi TIC infragruppo verso impresa collegata NIS (art. 3 c. 10). **Esclusioni notevoli**: punti vendita di GNL/GNC per autotrazione, prosumer fotovoltaici, mediatori solo marketing/contabili, mangimi, sementi, GPL non REACH, GNL liquido non rigassificato, biogas/biometano in forma liquida, RSA (incluse), istituti di istruzione (inclusi solo via Allegato IV su proposta MUR). **PA**: 4 sottocategorie a c) Amm. locali (Città metropolitane, Comuni >100k abitanti, Comuni capoluogo, ASL); le **Aziende ospedaliere/universitarie** sono **soggetti distinti** dalle ASL e si registrano **autonomamente**. **Allegato IV**: 4 tipologie attivate solo via Det. ACN su proposta autorità di settore, inclusi *trasporto pubblico locale*, *istituti istruzione con ricerca*, *attività interesse culturale*, *società in-house/partecipate/controllo pubblico*. **Servizi gestiti TIC**: definiti dall'**interconnessione diretta** rete fornitore↔cliente (assistenza/amministrazione attiva); i 13 servizi di sicurezza gestiti elencati esplicitamente.
+FAQ ACN sui **settori e tipologie di soggetto** rientranti nell'ambito NIS. È la FAQ più estesa del corpus (~70 codici, da `A1.1.a.1` a `A4.3.5`) e fornisce, settore per settore, l'**elenco operativo dei provvedimenti unionali** che identificano le tipologie di soggetto: per ciascun sottosettore la struttura è "**direttiva/regolamento UE → tipologia di soggetto → criterio dimensionale (Racc. 2003/361/CE) → essenziale/importante**". Coperti tutti i 10 settori altamente critici (Allegato I) + 7 settori critici (Allegato II) + Allegato III (PA) + Allegato IV (individuazione autoritativa). **Eccezioni di prevalenza**: Acqua potabile (solo distributore), Acque reflue, Gestione rifiuti — non rientrano se l'attività non è prevalente. **Tipologie size-blind** (tutte le dimensioni, anche micro/piccole; art. 3 c. 5 D.Lgs. 138/2024): reti + servizi di comunicazione elettronica (lett. b)); prestatori di servizi fiduciari (lett. c)), essenziali a prescindere se qualificati (art. 6 c. 1 lett. d)); gestori di registri TLD e fornitori di servizi DNS (lett. d)), essenziali (art. 6 c. 1 lett. d)); fornitori di servizi di registrazione dei nomi di dominio dell'Allegato II, compresi agenti e rivenditori (lett. e), `A2.6.3`); prestatori di servizi TIC infragruppo verso impresa collegata NIS (art. 3 c. 10). La FAQ non tratta i soggetti critici ex D.Lgs. 134/2024 (art. 3 c. 5 lett. a), essenziali ex art. 6 c. 1 lett. b)) né i soggetti individuati dall'ACN ex art. 3 c. 9: cfr. [[sources/FAQ NIS - Ambito]] `AMB.NO.1` e `AMB.GE.1`. **Esclusioni notevoli**: punti vendita di GNL/GNC per autotrazione, prosumer fotovoltaici, mediatori solo marketing/contabili, mangimi, sementi, GPL non REACH, GNL liquido non rigassificato, biogas/biometano in forma liquida, RSA (incluse), istituti di istruzione (inclusi solo via Allegato IV su proposta MUR). **PA**: 4 sottocategorie a c) Amm. locali (Città metropolitane, Comuni >100k abitanti, Comuni capoluogo, ASL); le **Aziende ospedaliere/universitarie** sono **soggetti distinti** dalle ASL e si registrano **autonomamente**. **Allegato IV**: 4 tipologie attivate solo via Det. ACN su proposta autorità di settore, inclusi *trasporto pubblico locale*, *istituti istruzione con ricerca*, *attività interesse culturale*, *società in-house/partecipate/controllo pubblico*. **Servizi gestiti TIC**: definiti dall'**interconnessione diretta** rete fornitore↔cliente (assistenza/amministrazione attiva); i 13 servizi di sicurezza gestiti elencati esplicitamente.
 
 ## Punti chiave
 
@@ -292,15 +293,17 @@ Reg. 178/2002/CE (D.Lgs. 190/2006): imprese alimentari che si occupano di distri
 
 ## Note dell'agente
 
-- **Mappa size-blind** (entità soggette a NIS a prescindere dalla dimensione, anche micro/piccole) — utile per autovalutazione PDA2:
-  1. **Servizi fiduciari qualificati** (Allegato I p. 8) → **essenziali**;
-  2. **DNS + TLD registry** (Allegato I p. 8) → **essenziali**;
-  3. **Reti pubbliche + servizi comunicazione elettronica** (Allegato I p. 8) → importanti (essenziali se >piccole);
-  4. **Servizi fiduciari non qualificati** (Allegato I p. 8) → importanti (essenziali se >medie);
-  5. **Registrar nomi di dominio** (Allegato II p. 6) → importanti — con **obblighi ridotti** ex art. 32 (no art. 24/25);
-  6. **PA Allegato III** → essenziali/importanti per categoria;
-  7. **Allegato IV** (post-individuazione) → tipologia per tipologia;
-  8. **Imprese collegate art. 3 c. 10** prestatori TIC verso NIS → attrazione gruppale.
+- **Mappa size-blind** (entità soggette a NIS a prescindere dalla dimensione, anche micro/piccole; art. 3 D.Lgs. 138/2024) — utile per autovalutazione PDA2:
+  1. **Soggetti critici** ex D.Lgs. 134/2024 (art. 3 c. 5 lett. a)) → **essenziali** (art. 6 c. 1 lett. b)); non trattati da questa FAQ, cfr. [[sources/FAQ NIS - Ambito]] `AMB.NO.1`;
+  2. **Servizi fiduciari qualificati** (Allegato I p. 8; c. 5 lett. c)) → **essenziali** (art. 6 c. 1 lett. d));
+  3. **DNS + TLD registry** (Allegato I p. 8; c. 5 lett. d)) → **essenziali** (art. 6 c. 1 lett. d));
+  4. **Reti pubbliche + servizi comunicazione elettronica** (Allegato I p. 8; c. 5 lett. b)) → importanti (essenziali se >piccole);
+  5. **Servizi fiduciari non qualificati** (Allegato I p. 8; c. 5 lett. c)) → importanti (essenziali se >medie);
+  6. **Registrar nomi di dominio** (Allegato II p. 6; c. 5 lett. e)) → importanti — con **obblighi ridotti** ex art. 32 (no art. 24/25);
+  7. **PA Allegato III** (c. 6) → essenziali/importanti per categoria;
+  8. **Allegato IV** (c. 8, post-individuazione) → tipologia per tipologia;
+  9. **Soggetti individuati dall'ACN** ex c. 9 (criteri lett. a)-f), notifica ex c. 13) → essenziali se individuati ex art. 6 c. 2, altrimenti importanti;
+  10. **Imprese collegate art. 3 c. 10** prestatori TIC verso NIS → attrazione gruppale.
 - **Mappa eccezioni di prevalenza** (criterio fatturato superiore alle altre attività):
   - Acqua potabile (solo distributore) — `A1.6.3`;
   - Acque reflue — `A1.7.3`;

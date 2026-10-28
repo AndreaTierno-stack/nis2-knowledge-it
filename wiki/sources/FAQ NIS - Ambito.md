@@ -8,6 +8,7 @@ url: https://www.acn.gov.it/portale/faq-nis-ambito
 author: Agenzia per la Cybersicurezza Nazionale
 date_published: 2026
 date_ingested: 2026-04-29
+updated: 2026-10-28
 tags: [NIS2, ACN, FAQ, ambito, dimensione, gruppi imprese, PA, organizzazioni estere, DORA, CER]
 ---
 
@@ -258,7 +259,7 @@ Resta sempre la **identificazione governativa** ex art. 9 + notifica art. 3 c. 1
 
 - *Sintesi dell'agente:* il cluster `AMB.GE` introduce **tre regole di proporzionalità inverse** alla logica generale:
   1. la **non-prevalenza** (regola: includi anche se residuale) **vs** le 3 eccezioni "core-only" (acque reflue, rifiuti, acqua potabile);
-  2. l'**indipendenza dimensionale** per 4 settori critici per il funzionamento di Internet (telco/fiduciari/DNS/registrar);
+  2. l'**indipendenza dimensionale** (`AMB.GE.1`) per le tipologie dell'art. 3 c. 5 (soggetti critici ex D.Lgs. 134/2024, telco, prestatori di servizi fiduciari, registri TLD e DNS, registrar) e per la PA dell'Allegato III (c. 6), oltre ai soggetti individuati dall'ACN ex cc. 8-9;
   3. l'**attrazione gruppale** ex art. 3 c. 10 (entità anche piccole tirate dentro per legame con un soggetto NIS).
   La FAQ `AMB.DI.1` in particolare costituisce il **glossario operativo** della Racc. 2003/361/CE: i 6 esempi numerici sono lo strumento più utile per i pdc.
 - **Numeri di protocollo confermati**:
