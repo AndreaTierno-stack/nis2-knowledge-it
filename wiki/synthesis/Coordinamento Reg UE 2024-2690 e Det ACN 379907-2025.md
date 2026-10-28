@@ -6,6 +6,7 @@ tags: [nis2, coordinamento-normativo, reg-ue-2024-2690, det-acn-379907, cloud-co
 sources: ["[[sources/Regolamento di esecuzione UE 2024-2690]]", "[[sources/Determinazione ACN specifiche di base - 379907-2025-12-19]]", "[[sources/Direttiva (UE) 2022-2555 (NIS2)]]", "[[sources/D.Lgs. 138-2024 (Decreto NIS)]]", "[[sources/Guida lettura specifiche di base]]"]
 scope: nis2_tool
 aliases: [Reg UE 2690 vs det ACN 379907, Coordinamento UE-IT NIS2 DSP]
+updated: 2026-10-28
 ---
 
 ## Domanda originale
@@ -34,7 +35,7 @@ La risposta è **T3**, con alcune precisazioni che il presente nodo ricostruisce
 ### Atto 2 — Det. ACN 379907/2025 (livello IT, recepimento + dettaglio)
 
 - **Natura giuridica**: determinazione del Direttore generale ACN ex art. 31 cc. 1-2 + art. 40 c. 5 lett. l) + art. 42 c. 1 lett. c) D.Lgs. 138/2024. Atto sub-legislativo nazionale.
-- **Ambito soggettivo**: **tutti** i soggetti NIS italiani (essenziali + importanti), indipendentemente dal settore — quindi anche i fornitori cloud italiani.
+- **Ambito soggettivo**: i soggetti NIS italiani (essenziali + importanti) — quindi anche i fornitori cloud italiani — salvo i soggetti dei settori 3 (bancario) e 4 (infrastrutture dei mercati finanziari) dell'Allegato I, ai quali l'art. 3 c. 14 D.Lgs. 138/2024 non applica i Capi IV e V (si applica DORA, Reg. UE 2022/2554).
 - **Ambito oggettivo**: specifiche di base per gli obblighi degli artt. 23, 24, 25, 29, 32 D.Lgs. 138/2024 (misure di sicurezza + incidenti significativi di base + DNS + dominio).
 - **Procedura UE 2015/1535**: esperita l'11/11/2025 (notifica progetto di regola tecnica nazionale alla Commissione — non è co-decisione, è informativa).
 - **Applicazione**: dal 15 gennaio 2026.

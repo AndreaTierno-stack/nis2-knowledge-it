@@ -7,6 +7,7 @@ url: http://data.europa.eu/eli/reg_impl/2024/2690/oj
 author: Commissione europea (atto firmato Ursula von der Leyen)
 date_published: 2024-10-17
 date_ingested: 2026-05-18
+updated: 2026-10-28
 tags: [nis2, ue, regolamento-esecuzione, direttamente-applicabile, dns, tld, cloud, data-center, cdn, msp, mssp, marketplace, search-engine, social-network, trust-service]
 scope: nis2_tool
 aliases: [Reg. UE 2024/2690, Reg. esecuzione NIS2 DSP, Implementing Regulation 2024/2690, Reg. UE 2690/2024]
@@ -34,7 +35,7 @@ Il regolamento si applica esclusivamente alle 11 categorie elencate all'**art. 1
 10. **Fornitori di piattaforme di servizi di social network**
 11. **Prestatori di servizi fiduciari** (eIDAS / reg. UE 910/2014)
 
-Gli altri settori NIS2 (energia, trasporti, sanità, banche, PA, ecc.) **non rientrano** nell'ambito di questo regolamento: per essi continua ad applicarsi il regime nazionale ex direttiva NIS2 art. 21 (in Italia, [[sources/Determinazione ACN specifiche di base - 379907-2025-12-19|det. 379907/2025]]).
+Gli altri settori NIS2 (energia, trasporti, sanità, PA, ecc.) **non rientrano** nell'ambito di questo regolamento: per essi continua ad applicarsi il regime nazionale ex direttiva NIS2 art. 21 (in Italia, [[sources/Determinazione ACN specifiche di base - 379907-2025-12-19|det. 379907/2025]]). Fanno eccezione i settori 3 (bancario) e 4 (infrastrutture dei mercati finanziari): l'art. 3 c. 14 del [[sources/D.Lgs. 138-2024 (Decreto NIS)|D.Lgs. 138/2024]] non applica loro i Capi IV e V e rinvia a DORA (Reg. UE 2022/2554), quindi nemmeno la det. 379907/2025.
 
 ## Struttura dell'atto
 

@@ -59,7 +59,7 @@ Nella Direttiva NIS2 l'identificazione segue per i più dalla **size-cap rule au
 Le FAQ ACN dedicano a questo ciclo numerosi chiarimenti:
 
 - [[sources/FAQ NIS - Profili generali]]: panoramica generale del regime NIS e del processo di identificazione.
-- [[sources/FAQ NIS - Ambito]]: criteri di rientro nell'ambito (`AMB.SI.*`) e di esclusione (`AMB.NO.*`) — incluso il caso DORA (`AMB.NO.2` — entità finanziarie restano soggetti NIS solo per Allegato I p. 3 e p. 4 e con il solo art. 7 c. 1).
+- [[sources/FAQ NIS - Ambito]]: criteri di rientro nell'ambito (cluster `AMB.GE`, `AMB.DI`, `AMB.GI`, `AMB.PU`, `AMB.ES`) e relazioni con altre normative (`AMB.NO.*`) — incluso il caso DORA (`AMB.NO.2`: per i soggetti delle tipologie Allegato I p. 3 e p. 4 l'art. 3 c. 14 disapplica art. 17 e Capi IV-V; la FAQ parla anche di sola registrazione ex art. 7 c. 1, incoerenza segnalata in [[concepts/Coordinamento DORA-NIS]]).
 - [[sources/FAQ NIS - Settori, sottosettori e tipologie di soggetto]]: ~70 chiarimenti su tutti i 17 settori (10 altamente critici + 7 critici) + Allegato III + Allegato IV; mappa size-blind (reti e servizi di comunicazione elettronica, prestatori di servizi fiduciari, DNS/TLD/registry, registrar Allegato II, imprese collegate ex art. 3 c. 10; la FAQ non tratta i soggetti critici ex art. 3 c. 5 lett. a), per i quali v. [[sources/FAQ NIS - Ambito]] `AMB.NO.1`, né i soggetti individuati ex art. 3 c. 9), eccezioni di prevalenza (Acqua potabile, Acque reflue, Gestione rifiuti), esclusioni puntuali, identificazione autoritativa Allegato IV.
 - [[sources/FAQ NIS - Registrazione]]: dettaglio operativo della procedura di auto-registrazione su piattaforma — accesso del pdc, designazione, gruppi di imprese, PA, rappresentante UE.
 

@@ -230,13 +230,15 @@ Resta sempre la **identificazione governativa** ex art. 9 + notifica art. 3 c. 1
 - **Art. 3 c. 14 decreto NIS** disapplica per tali soggetti: **art. 17** (accordi di condivisione delle informazioni) + **Capi IV** (obblighi misure + notifica) + **Capo V** (regime di vigilanza).
 - Resta **fermo il ruolo di [[entities/EU-CyCLONe]]** nel contesto della gestione delle crisi cyber transfrontaliere.
 
+> *Nota redazionale (2026-10-28):* `AMB.NO.2` è internamente incoerente. La seconda frase limita gli obblighi alla sola registrazione (art. 7 c. 1); la terza, conforme all'art. 3 c. 14 del [[sources/D.Lgs. 138-2024 (Decreto NIS)|D.Lgs. 138/2024]], disapplica "solo" l'art. 17 e i Capi IV e V, e lascia quindi applicabili le altre disposizioni del decreto (es. l'intero art. 7, compreso l'aggiornamento annuale del c. 4). Fa testo il decreto. Gli esoneri ulteriori (referente CSIRT, organi di amministrazione, categorizzazione) non vengono dalla FAQ ma dalla Det. ACN 127437/2026 e riguardano le entità finanziarie DORA che rientrano nell'ambito NIS: cfr. [[concepts/Coordinamento DORA-NIS]].
+
 ## Citazioni rilevanti
 
 > "Al riguardo, salvo tre eccezioni, la riconducibilità prescinde dalla prevalenza dell'attività svolta dal soggetto. Pertanto, un soggetto rientra nell'ambito di applicazione anche qualora svolga solo in forma residuale attività riconducibili alle tipologie di soggetto di cui agli allegati I, II, III e IV." — `AMB.GE.4`.
 
 > "Le organizzazioni che non soddisfano i criteri di cui all'articolo 3 del decreto NIS non rientrano automaticamente nell'ambito di applicazione del decreto NIS per il solo fatto di fornire servizi a soggetti NIS […]. Tuttavia, i soggetti NIS, al fine di gestire il rischio informatico che deriva dalla propria catena di approvvigionamento, digitale o meno, dovranno imporre obblighi contrattuali ai propri fornitori." — `AMB.GE.6`.
 
-> "DORA (Regolamento (UE) 2022/2554) è considerato lex specialis settoriale per la maggior parte delle previsioni della Direttiva NIS (2022/2555). Pertanto, ai soggetti DORA […] si applicano solamente le disposizioni del decreto NIS relative all'obbligo di registrazione (articolo 7, comma 1, del decreto NIS)." — `AMB.NO.2`.
+> "DORA (Regolamento (UE) 2022/2554) è considerato lex specialis settoriale per la maggior parte delle previsioni della Direttiva NIS (2022/2555). Pertanto, ai soggetti DORA riconducibili alle medie o grandi imprese che svolgono attività o erogano servizi riconducibili alle tipologie di soggetto di cui all'allegato I, punti 3 (settore bancario) e 4 (settore infrastrutture dei mercati finanziari), si applicano solamente le disposizioni del decreto NIS relative all'obbligo di registrazione (articolo 7, comma 1, del decreto NIS). In sostanza, l'articolo 3, comma 14, del decreto NIS disapplica, per tali soggetti, solo le previsioni dell'articolo 17 e dei capi IV e V, fermo restando il ruolo di CyCLONe nel contesto della gestione delle crisi cyber a livello transfrontaliero." — `AMB.NO.2`.
 
 ## Entità menzionate
 
@@ -266,7 +268,7 @@ Resta sempre la **identificazione governativa** ex art. 9 + notifica art. 3 c. 1
   - **DPCM 221/2024 del 9 dicembre 2024** (GU 10 febbraio 2025) = clausola di salvaguardia.
   - **D.Lgs. 134/2024** = recepimento Direttiva CER (UE 2022/2557).
   - **Det. ACN 379887/2025** citata come riferimento per le definizioni di "imprese collegate" (art. 1 c. 1 lett. cc) — è la versione *predecessora* della determinazione del 13/04/2026.
-- **DORA → NIS solo art. 7 c. 1** (`AMB.NO.2`) è il punto più sintetico: per banche e infrastrutture mercati finanziari **medie/grandi**, l'unico obbligo NIS è la **registrazione**, tutto il resto (art. 17 + Capi IV-V) disapplicato. Fermo restando il ruolo di EU-CyCLONe.
+- **DORA e NIS** (`AMB.NO.2`): per banche e infrastrutture dei mercati finanziari **medie/grandi** la FAQ indica come unico obbligo NIS la **registrazione** (art. 7 c. 1), ma richiama l'art. 3 c. 14, che disapplica solo l'art. 17 e i Capi IV-V: le altre disposizioni del decreto restano applicabili (v. nota redazionale in `AMB.NO.2`). Fermo restando il ruolo di EU-CyCLONe.
 - **`AMB.GI.3`** è la lista nera della clausola di salvaguardia: **dipendenza residuale** è già sufficiente a precludere — soglia molto stringente.
 - *Sintesi dell'agente:* il combinato `AMB.PU.1` + `AMB.PU.2` mostra che il decreto NIS in Italia **non copre l'intero settore pubblico**: scuole e comuni piccoli sono fuori, salvo identificazione governativa. È un'asimmetria rispetto al regime CER (che non ha questa esclusione di soglia).
 - Nota di traduzione: caratteri "à è ò ù" appaiono come "�" nel testo estratto.
