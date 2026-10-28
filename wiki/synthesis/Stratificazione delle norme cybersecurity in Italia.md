@@ -85,10 +85,11 @@ I rinvii e gli esoneri **espliciti** che ho ricostruito dal corpus:
 - **Adesione volontaria** ammessa per ogni esonero.
 - Cfr. [[concepts/Coordinamento DORA-NIS]].
 
-### Cloud PA ↔ NIS2 — mapping bidirezionale
-- **Art. 4 [[sources/Determinazione ACN categorizzazione - 2026-04-13|Det. 155238/2026]]**: i soggetti NIS che hanno già svolto la classificazione ex Regolamento Cloud (ordinari/critici/strategici) **applicano quel modello in luogo del modello di categorizzazione NIS**.
-- **FAQ `CAT.8`**: alla PA viene presentato l'elenco dei dati e servizi classificati pubblicato su `padigitale2026.gov.it` con facoltà di **confermare** o **aggiornare** (mantenendo coerenza con PA digitale 2026).
-- *Razionale:* evitare duplicazione per le PA che hanno già adempiuto al Regolamento Cloud.
+### Cloud PA ↔ NIS2 — due raccordi distinti
+- **Categorizzazione — art. 4 [[sources/Determinazione ACN categorizzazione - 2026-04-13|Det. 155238/2026]]**: "I soggetti NIS che hanno svolto la classificazione dei dati e dei servizi di cui all'articolo 3 del Decreto Direttoriale ACN n. 21007/24" (Regolamento Cloud: ordinari/critici/strategici) **applicano quel modello in luogo del modello di categorizzazione NIS**. La condizione è aver svolto la classificazione, non l'essere PA.
+- **FAQ `CAT.8`** ([[sources/FAQ NIS - Categorizzazione]]): a tali soggetti viene presentato l'elenco dei dati e servizi classificati presente su `padigitale2026.gov.it` con facoltà di **confermare** o **aggiornare** (assicurando la coerenza con la classificazione su PA digitale 2026).
+- **Ambito — FAQ `A1.8.2`** ([[sources/FAQ NIS - Settori, sottosettori e tipologie di soggetto]]): i fornitori di servizi cloud qualificati ai sensi del Regolamento Cloud che superano i massimali delle piccole imprese rientrano nel decreto NIS come fornitori di servizi cloud (Allegato I, punto 8).
+- *Razionale:* evitare duplicazione per chi ha già adempiuto al Regolamento Cloud.
 
 ### L. 90/2024 ↔ NIS2 — sovrapposizione del referente
 - **Art. 4 c. 8 [[sources/Determinazione ACN piattaforma e procedure - 2026-04-13|Det. piattaforma 127437/2026]]**: la designazione del [[entities/Punto di contatto NIS|punto di contatto NIS]] **può soddisfare anche l'obbligo di nomina** del **referente per la cybersicurezza** ex **art. 8 c. 2 L. 90/2024**, per i soggetti che ricadono nell'art. 1 c. 1 di quella legge.
@@ -106,7 +107,7 @@ Per un soggetto che voglia capire i regimi applicabili:
 3. **Sei entità finanziaria DORA?**
    - Sì → DORA primario. Se anche NIS2 (All. I p. 3 / p. 4) → art. 17 e Capi IV-V NIS non applicabili (art. 3 c. 14); restano registrazione e aggiornamento ex art. 7, con gli esoneri di piattaforma della Det. 127437/2026.
 4. **Sei una PA?**
-   - Sì → Regolamento Cloud applicabile per dati/servizi cloud. Se anche NIS2 → modello Cloud sostituisce modello NIS per la categorizzazione.
+   - Sì → Regolamento Cloud applicabile per dati/servizi cloud. Se anche NIS2 e ha svolto la classificazione ex art. 3 DD ACN 21007/24 → modello Cloud in luogo del modello NIS per la categorizzazione (art. 4 Det. 155238/2026, FAQ `CAT.8`).
 5. **Sei una PA / soggetto pubblico nell'art. 1 c. 1 L. 90/2024?**
    - Sì → L. 90/2024 + designazione referente cybersicurezza assolvibile col pdc NIS.
 
