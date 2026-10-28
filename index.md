@@ -3,7 +3,7 @@
 > Catalogo content-oriented dell'intera wiki. Aggiornato a ogni ingest/lint.
 > Contatori `(N)` aggiornati automaticamente dall'agente.
 
-**Ultimo aggiornamento:** 2026-10-27 (correzione di contenuto: ambito PA, DEC-007; contatori invariati)
+**Ultimo aggiornamento:** 2026-10-28 (correzione di contenuto: soggetti critici, DORA, Cloud PA, Reg. UE 2024/2690, naming "soggetti critici", DEC-008; contatori invariati)
 **Dominio attivo:** NIS2 — Direttiva (UE) 2022/2555, D.Lgs. 138/2024, corpus regolatorio ACN, + Reg. UE 2024/2690 (DSP), + ENISA TIG/Mapping Table/Mapping NIS2-ECSF, + NIST CSF 2.0, + ISO/IEC 27000-series, + FNCDP 2025 v2.1, + ECSF, **+ L. 90/2024 (cybersicurezza nazionale + reati informatici)**.
 **Scope tagging**: tutti i nodi toccati dai cluster Wave 6 + Wave 7 carry `scope:` (`nis2_tool` / `grc_personal` / `both`) nel frontmatter — vedi [[_meta/wave_reports/Wave_6_2026-05-18]] e [[_meta/wave_reports/Wave_6_5_PLANNED]].
 
@@ -57,7 +57,7 @@
 
 ### Wave 4 — FAQ ACN (8)
 - [[sources/FAQ NIS - Profili generali]] — *panoramica del regime NIS, ruoli, calendario e roadmap normativa* — 2026
-- [[sources/FAQ NIS - Ambito]] — *criteri di rientro/esclusione (`AMB.SI.*`/`AMB.NO.*`); chiarimento DORA → solo art. 7 c. 1 per Allegato I p. 3-4* — 2026
+- [[sources/FAQ NIS - Ambito]] — *criteri di rientro (`AMB.GE`, `AMB.DI`, `AMB.GI`, `AMB.PU`, `AMB.ES`) e relazioni con altre normative (`AMB.NO`); DORA: art. 3 c. 14 per Allegato I p. 3-4, con nota sull'incoerenza interna di `AMB.NO.2`* — 2026
 - [[sources/FAQ NIS - Settori, sottosettori e tipologie di soggetto]] — *~70 chiarimenti settoriali con NACE, size-blind, eccezioni di prevalenza, identificazione autoritativa Allegato IV* — 2026
 - [[sources/FAQ NIS - Registrazione]] — *procedura su Portale ACN, gruppi di imprese, PA, rappresentante UE* — 2026
 - [[sources/FAQ NIS - Ruoli e procedure]] — *catena CDA → pdc → referente CSIRT, tabella riassuntiva 8 ruoli, esternalizzazione esplicita* — 2026
@@ -142,7 +142,7 @@
 - [[concepts/Sanzioni NIS2]] — *€ 10M/2% essenziali, € 7M/1,4% importanti, € 25-125k PA + misure non pecuniarie; § L. 90 + PSNC armonizzati* — 3 fonti
 - [[concepts/Strategia nazionale di cybersicurezza]] — *documento di indirizzo politico-strategico* — 1 fonte
 - [[concepts/Clausola di salvaguardia]] — *eccezioni per sicurezza nazionale, difesa, ordine pubblico* — 4 fonti
-- [[concepts/Coordinamento DORA-NIS]] — *esoneri specifici per entità finanziarie + salvaguardia DORA nel Tavolo NIS + FAQ `AMB.NO.2`* — 4 fonti
+- [[concepts/Coordinamento DORA-NIS]] — *esonero di legge (art. 3 c. 14, settori 3-4) ed esoneri di piattaforma per determinazione (Det. 127437/2026) + salvaguardia DORA nel Tavolo NIS + FAQ `AMB.NO.2`* — 4 fonti
 - [[concepts/Coordinated Vulnerability Disclosure]] — *processo coordinato per la divulgazione delle vulnerabilità (Art. 12 NIS2)* — 2 fonti
 - [[concepts/Responsabilità degli organi di gestione]] — *obblighi di approvazione, supervisione, formazione + 11 documenti che richiedono delibera del board (Appendice C guida); FAQ ODA chiariscono governance non standard* — 5 fonti
 

@@ -6,5 +6,5 @@ Regole redazionali per i riferimenti normativi nei nodi di `wiki/`. Integrano `C
 
 - Nei nodi si scrive "soggetti critici (D.Lgs. 134/2024)"; per l'atto UE, "direttiva (UE) 2022/2557 sulla resilienza dei soggetti critici". La sigla "CER" non si usa da sola.
 - "CER" resta ammessa solo dentro le citazioni testuali delle fonti (es. FAQ ACN: "soggetti CER", "decreto CER", "Direttiva CER") e nel nome esteso inglese ("Critical Entities Resilience Directive (CER)").
-- Motivo: la sigla nuda non dice quale atto né quale livello (direttiva UE o decreto di recepimento) e si confonde con altri usi (es. lo stress test "CER 2024" nelle fonti ENISA).
+- Motivo: la sigla nuda non dice quale atto né quale livello (direttiva UE o decreto di recepimento) e nel settore energia è ambigua con le comunità energetiche rinnovabili (CACER). Stessa regola nel corpus del tool (`copy_constraints.cer_cacer_disambiguation` in `nis2-check`).
 - Introdotta il 2026-10-28 ([[_meta/decision_log]], DEC-008).

@@ -121,3 +121,19 @@ Convenzione stato: `ATTUATA` | `PIANIFICATA` | `REVOCATA`.
 **Nota:** la restrizione è nata in sintesi (*inferenza dell'agente:* la qualifica di essenziale delle PA centrali, art. 6 c. 1 lett. e), letta come perimetro dell'intero rientro PA) e si è propagata in sette nodi e nel corpus del tool (categoria d) ridotta agli enti a struttura associativa, qualifiche a) e b)). Seconda occorrenza di una restrizione di sintesi propagata, dopo Size-cap rule del 2026-10-26.
 
 **Impatto operativo:** `index.md` solo nella riga "Ultimo aggiornamento", contatori invariati. README, sezione "Stato di verifica": riga datata. Voce corrispondente in `log.md`. Corpus non modificato: pacchetto C1-C6 registrato come punto aperto in `nis2-check/docs/STATUS.md`, per corpus 0.5.0 dopo S2.
+
+---
+
+## [2026-10-28] DEC-008 — Correzione di contenuto: soggetti critici, DORA, Cloud PA, Reg. UE 2024/2690
+
+**Stato:** ATTUATA (2026-10-28)
+
+**Classe:** correzione di contenuto (stessa classe di DEC-006 e DEC-007 parte B). Non è un ingest: nessuna fonte nuova, nessun nodo creato in `wiki/`.
+
+**Nodi (16):** [[sources/D.Lgs. 138-2024 (Decreto NIS)]], [[sources/FAQ NIS - Settori, sottosettori e tipologie di soggetto]], [[sources/FAQ NIS - Ambito]], [[sources/FAQ NIS - Registrazione]], [[sources/FAQ NIS - Categorizzazione]], [[sources/Determinazione ACN categorizzazione - 2026-04-13]], [[sources/Regolamento di esecuzione UE 2024-2690]], [[sources/Direttiva (UE) 2022-2555 (NIS2)]], [[concepts/Ambito di applicazione NIS2]], [[concepts/Settori altamente critici e critici]], [[concepts/Size-cap rule]], [[concepts/Identificazione dei soggetti NIS]], [[concepts/Coordinamento DORA-NIS]], [[concepts/Categorizzazione dei soggetti]], [[synthesis/Stratificazione delle norme cybersecurity in Italia]], [[synthesis/Coordinamento Reg UE 2024-2690 e Det ACN 379907-2025]]. Scope invariato.
+
+**Decisione:** correggere, dopo riscontro sul testo in `raw/`, le imprecisioni critiche della lettura del 2026-10-28: (1) testo dell'art. 3 cc. 5, 9, 10, 14, 15, art. 2 c. 1 lett. bbb) e art. 40 c. 5 lett. a) nel nodo D.Lgs., numerazione dei Capi IV-V; (2) soggetti critici (art. 3 c. 5 lett. a), art. 6 c. 1 lett. b)) negli elenchi "a prescindere dalla dimensione", con c. 9 e c. 10; (3) DORA su due livelli, legge (art. 3 c. 14: settori 3-4, art. 17 e Capi IV-V) e determinazione (Det. 127437/2026: entità DORA in ambito NIS, art. 7 c. 6, 16 c. 13, 20 c. 6), con nota sull'incoerenza interna di `AMB.NO.2`; (4) Cloud PA secondo la condizione dell'art. 4 Det. 155238/2026 ("hanno svolto la classificazione"), FAQ `CAT.8` e `A1.8.2`; (5) FAQ Settori, sottosettore elettrico; (6) Reg. UE 2024/2690 riferito agli Allegati I pp. 8-9 e II p. 6, definizione cloud testuale; (7) "CER" nudo sostituito da "soggetti critici (D.Lgs. 134/2024)", con regola in `_meta/convenzioni_di_naming.md`.
+
+**Nota:** seconda ricorrenza dello schema DEC-007: un'omissione nata in sintesi si è propagata in sette nodi e nel corpus del tool. *Inferenza dell'agente sull'origine:* la mappa size-blind è stata costruita sulla FAQ Settori, che non tratta i soggetti critici, e poi letta come elenco completo dell'art. 3 c. 5. Contromisura per i lint successivi: ogni elenco "a prescindere dalla dimensione" si confronta con il testo dell'art. 3 cc. 5, 6, 8, 9 e 10, ora nel nodo D.Lgs.
+
+**Impatto operativo:** `index.md` solo nelle righe "Ultimo aggiornamento", FAQ Ambito e Coordinamento DORA-NIS; contatori invariati. README, sezione "Stato di verifica": riga datata; il "Backlog lint" con le 29 imprecisioni non critiche della lettura è da aggiungere. Voce corrispondente in `log.md`. Corpus non modificato: allineamento da registrare come punto aperto in `nis2-check/docs/STATUS.md`.
