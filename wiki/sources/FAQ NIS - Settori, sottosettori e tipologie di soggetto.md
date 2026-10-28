@@ -24,17 +24,17 @@ FAQ ACN sui **settori e tipologie di soggetto** rientranti nell'ambito NIS. È l
 - **Imprese elettriche** che svolgono **fornitura** (= vendita a clienti, anche rivendita).
 - **Gestori sistema di distribuzione** (DSO).
 - **Gestori sistema di trasmissione** (TSO).
-- **Produttori** (esclusi prosumer / clienti attivi — `A1.1.a.4`).
+- **Produttori** (esclusi prosumer / clienti attivi che non svolgono altre attività riconducibili agli Allegati I e II — `A1.1.a.4`).
 - **Gestori del mercato elettrico designati** (coupling unico DA/ID).
 - **Partecipanti al mercato dell'energia elettrica** che forniscono aggregazione, gestione domanda, stoccaggio.
 - **Gestori di punti di ricarica** ex DM MASE n. 106 del 16/03/2023 (registrati su PUN). NB: i punti vendita che offrono ricarica elettrica alla clientela **non** rientrano automaticamente — solo se obbligati a registrarsi su PUN (`A1.1.a.3`).
 - Aziende che vendono energia elettrica a clienti domestici a mercato libero **rientrano** quali "imprese elettriche" — `A1.1.a.2`.
 
-**Mappa tipologia → codice FAQ (sottosettore elettrico `A1.1.a`)** — codici come attestati dalla FAQ (nessuna definizione della Dir. 2019/944 riportata: fuori ambito):
-- `A1.1.a.1` — elencazione generale delle tipologie del sottosettore elettrico: imprese elettriche di fornitura (vendita), gestori del sistema di distribuzione (DSO), gestori del sistema di trasmissione (TSO), produttori, gestori del mercato elettrico designati, partecipanti al mercato (aggregazione, gestione domanda, stoccaggio).
+**Mappa tipologia → codice FAQ (sottosettore elettrico `A1.1.a`)** — codici come attestati dalla FAQ. `A1.1.a.1` riporta tra virgolette le definizioni della Dir. 2019/944 (impresa elettrica, fornitura, DSO, TSO, produttore, aggregazione, gestione della domanda, stoccaggio) e del Reg. 2019/943 (gestore del mercato elettrico designato, partecipante al mercato); qui non sono trascritte:
+- `A1.1.a.1` — elencazione generale delle tipologie del sottosettore elettrico: imprese elettriche di fornitura (vendita), gestori del sistema di distribuzione (DSO), gestori del sistema di trasmissione (TSO), produttori, gestori del mercato elettrico designati, partecipanti al mercato (aggregazione, gestione domanda, stoccaggio), gestori di punti di ricarica (punto 3).
 - `A1.1.a.2` — imprese elettriche che vendono a **clienti domestici** sul mercato libero: rientrano come "imprese elettriche".
 - `A1.1.a.3` — **gestori di punti di ricarica** registrati su PUN (ex DM MASE n. 106 del 16/03/2023); i punti vendita che offrono ricarica ma non obbligati alla registrazione su PUN **non rientrano automaticamente**.
-- `A1.1.a.4` — **esclusione** di prosumer / clienti attivi dalla tipologia "produttori".
+- `A1.1.a.4` — **esclusione** di prosumer / clienti attivi dalla tipologia "produttori", per le organizzazioni che non svolgono altre attività riconducibili agli Allegati I e II.
 
 **Sottosettore Teleriscaldamento e teleraffrescamento (`A1.1.b.1`)** — direttiva 2018/2001/UE (D.Lgs. 199/2021): gestori di teleriscaldamento o teleraffrescamento.
 
@@ -314,7 +314,7 @@ Reg. 178/2002/CE (D.Lgs. 190/2006): imprese alimentari che si occupano di distri
   - GNL liquido non rigassificato non in rete (`A1.1.d.2`);
   - Biogas/biometano in forma liquida non in rete (`A1.1.d.3`);
   - GPL — non in petrolio, in chimici **solo se REACH** (`A1.1.d.4`–`A1.1.d.5`);
-  - Prosumer fotovoltaici (`A1.1.a.4`);
+  - Prosumer fotovoltaici che non svolgono altre attività riconducibili agli Allegati I e II (`A1.1.a.4`);
   - Mediatori solo marketing/contabili dei servizi digitali e gestiti (`A1.8.4`, `A1.9.5`, `A2.6.4`);
   - Mangimi (`A2.4.2`);
   - Sementi (`A2.4.3`);
@@ -333,3 +333,4 @@ Reg. 178/2002/CE (D.Lgs. 190/2006): imprese alimentari che si occupano di distri
 - **Sintesi dell'agente**: la FAQ è in pratica un **manuale operativo** per l'autovalutazione di settore (PDA3 in `REG.1`/`PDA1-3` di [[sources/FAQ NIS - Registrazione]]). Cita decine di provvedimenti unionali con definizioni operative, e va letta in parallelo con `AMB.GE` di [[sources/FAQ NIS - Ambito]] (principio di non-prevalenza orizzontale) e `AMB.NO` (esclusioni DORA).
 - **Possibile gap normativo**: "**piattaforme di social network**" definite nella FAQ in modo simile alla DSA — manca il riferimento esplicito al Reg. 2022/2065 (DSA), che potrebbe sovrapporsi. Da verificare se ACN ha emesso chiarimenti.
 - Note di traduzione: caratteri "à è ò ù" appaiono come "�" nel testo estratto.
+- *Nota redazionale (2026-10-28):* due refusi in `A1.1.a.1`. Al punto 1. a) la FAQ rinvia due volte all'"articolo 3, punto 57" della Dir. 2019/944: per l'impresa elettrica la definizione è all'art. 2, punto 57) (così l'Allegato I del [[sources/D.Lgs. 138-2024 (Decreto NIS)|D.Lgs. 138/2024]]), per la fornitura all'art. 2, punto 12) (così la stessa FAQ nella frase e in `A1.1.a.2`). Al punto 3 (gestori di punti di ricarica) il rinvio "(vedi FAQ A1.1.a.2)" punta alla FAQ sulla vendita a clienti domestici; i punti di ricarica sono trattati in `A1.1.a.3`.
