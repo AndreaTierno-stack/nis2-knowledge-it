@@ -70,6 +70,8 @@ A questi si aggiungono 4 punti marcati "da chiarire" (D.Lgs. 138-2024, FAQ Aggio
 
 **Correzione PA (2026-10-27):** sette nodi riducevano la PA che rientra a prescindere dalla dimensione alle sole "PA centrali" (in un caso "PA regionali per i servizi rilevanti"; in un altro la PA compariva come settore dell'Allegato I). Ora riportano la PA dell'Allegato III lett. a)-d) (centrali, regionali, locali, altri soggetti pubblici: 15 categorie), le esclusioni dell'art. 4 cc. 2-3 e le qualifiche dell'art. 6 (lett. a) essenziale, lett. b)-d) importante salvo individuazione ACN). Fonte: D.Lgs. 138/2024, art. 3 c. 6 e Allegato III, riscontrati sul testo vigente Normattiva (DEC-007).
 
+**Correzione del 2026-10-28:** correzioni di contenuto dalla lettura del 2026-10-28, ciascuna verificata sul testo in `raw/` (DEC-008). Sette nodi omettevano i soggetti critici (art. 3 c. 5 lett. a), art. 6 c. 1 lett. b) D.Lgs. 138/2024) dagli elenchi "a prescindere dalla dimensione": reintegrati, con c. 9 e c. 10. Il nodo D.Lgs. 138/2024 riporta ora il testo di art. 3 cc. 5, 9, 10, 14, 15, art. 2 c. 1 lett. bbb) e art. 40 c. 5 lett. a), con la numerazione dei Capi IV-V corretta. DORA distingue la legge (art. 3 c. 14: settori 3-4, art. 17 e Capi IV-V) dagli esoneri per determinazione (Det. 127437/2026). Cloud PA allineato all'art. 4 Det. 155238/2026; Reg. UE 2024/2690 riferito agli Allegati I pp. 8-9 e II p. 6 della direttiva; "CER" da solo sostituito da "soggetti critici (D.Lgs. 134/2024)" (regola in `_meta/convenzioni_di_naming.md`).
+
 ## Cosa non è
 
 Non è uno strumento di valutazione: non dice se un soggetto rientra o meno nel perimetro NIS2. Un tool di pre-screening che usa questo corpus è in sviluppo in un repository separato e non è ancora rilasciato.
