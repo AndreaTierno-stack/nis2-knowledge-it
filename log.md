@@ -801,3 +801,9 @@ Pagine aggiornate:
 - Passo 8: `README.md` (Stato di verifica): riga datata. Backlog lint delle 29 imprecisioni non critiche: in attesa dell'elenco del report.
 - `index.md`: righe "Ultimo aggiornamento", FAQ Ambito, Coordinamento DORA-NIS. Contatori invariati. `updated: 2026-10-28` nei nodi toccati (aggiunto dove assente).
 Note: seconda ricorrenza dello schema DEC-007 (omissione nata in sintesi e propagata in sette nodi e nel corpus del tool), registrata come DEC-008 in [[_meta/decision_log]]. Corpus non toccato.
+
+## [2026-10-28] lint | Chiusura passo 8: Backlog lint nel README, marker DORA (DEC-008)
+Pagine aggiornate:
+- [[synthesis/Coordinamento Reg UE 2024-2690 e Det ACN 379907-2025]] r. 130: marker "[da verificare: testo del Reg. 2022/2554 non in raw/]" dopo la parte DORA dell'avvertenza Cloud; testo invariato.
+- `README.md` (Stato di verifica): contatore "da verificare" 20 → 21 (riga del nodo di coordinamento: 1 → 2); nuova sottosezione "Backlog lint" con 3 voci (D.Lgs. 138/2024 r. 45, Coordinamento DORA-NIS r. 20, Coordinamento 2690-379907 r. 130) e la riga sull'audit del 2026-10-28.
+Note: `nis2-check/docs/verifications/2026-10-28-cloud-energia-dora.md` non esiste; le 29 imprecisioni non critiche non sono conservate, audit da ripetere al prossimo lint. Righe del backlog riferite allo stato dopo DEC-008 (nel report di lettura: 40, 16, 129). Contatori `index.md` invariati.

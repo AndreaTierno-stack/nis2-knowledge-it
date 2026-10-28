@@ -45,7 +45,7 @@ I documenti sorgente non sono ridistribuiti in questo repository: ogni pagina `s
 
 Questa sezione elenca ciò che la KB dichiara di non aver ancora verificato. È parte del metodo, non un difetto da nascondere.
 
-**Punti marcati "da verificare" nei nodi (20):**
+**Punti marcati "da verificare" nei nodi (21):**
 - `concepts/Elementi essenziali di cybersicurezza (procurement)`: 3 (DPCM ex art. 14 L. 90/2024 e rinvio a schemi di certificazione UE)
 - `concepts/Referente per la cybersicurezza (L. 90-2024)`: 1 (determinazione ACN ex art. 8 c. 1 lett. f)
 - `concepts/Settori altamente critici e critici`: 1 (sotto-categorie italiane in Allegato)
@@ -53,7 +53,7 @@ Questa sezione elenca ciò che la KB dichiara di non aver ancora verificato. È 
 - `sources/FAQ NIS - Settori, sottosettori e tipologie di soggetto`: 1 (riferimento al DSA)
 - `sources/Legge 90-2024 (cybersicurezza nazionale)`: 7 (atti attuativi: art. 1 c. 1, art. 1 c. 5, art. 11, art. 12, art. 13 c. 5, art. 14 c. 1, art. 15)
 - `synthesis/Coordinamento L. 90-2024 e NIS2`: 3
-- `synthesis/Coordinamento Reg UE 2024-2690 e Det ACN 379907-2025`: 1 (più una open question normativa segnalata nel nodo)
+- `synthesis/Coordinamento Reg UE 2024-2690 e Det ACN 379907-2025`: 2 (uno aggiunto il 2026-10-28: parte DORA dell'avvertenza Cloud; più una open question normativa segnalata nel nodo)
 - `synthesis/Cronologia attuativa NIS2 in Italia`: 2
 
 A questi si aggiungono 4 punti marcati "da chiarire" (D.Lgs. 138-2024, FAQ Aggiornamento, FAQ Registrazione, Cronologia attuativa NIS2 in Italia) e una nota in ISO IEC 27000-2018 sulla verifica contro la copia ufficiale.
@@ -71,6 +71,15 @@ A questi si aggiungono 4 punti marcati "da chiarire" (D.Lgs. 138-2024, FAQ Aggio
 **Correzione PA (2026-10-27):** sette nodi riducevano la PA che rientra a prescindere dalla dimensione alle sole "PA centrali" (in un caso "PA regionali per i servizi rilevanti"; in un altro la PA compariva come settore dell'Allegato I). Ora riportano la PA dell'Allegato III lett. a)-d) (centrali, regionali, locali, altri soggetti pubblici: 15 categorie), le esclusioni dell'art. 4 cc. 2-3 e le qualifiche dell'art. 6 (lett. a) essenziale, lett. b)-d) importante salvo individuazione ACN). Fonte: D.Lgs. 138/2024, art. 3 c. 6 e Allegato III, riscontrati sul testo vigente Normattiva (DEC-007).
 
 **Correzione del 2026-10-28:** correzioni di contenuto dalla lettura del 2026-10-28, ciascuna verificata sul testo in `raw/` (DEC-008). Sette nodi omettevano i soggetti critici (art. 3 c. 5 lett. a), art. 6 c. 1 lett. b) D.Lgs. 138/2024) dagli elenchi "a prescindere dalla dimensione": reintegrati, con c. 9 e c. 10. Il nodo D.Lgs. 138/2024 riporta ora il testo di art. 3 cc. 5, 9, 10, 14, 15, art. 2 c. 1 lett. bbb) e art. 40 c. 5 lett. a), con la numerazione dei Capi IV-V corretta. DORA distingue la legge (art. 3 c. 14: settori 3-4, art. 17 e Capi IV-V) dagli esoneri per determinazione (Det. 127437/2026). Cloud PA allineato all'art. 4 Det. 155238/2026; Reg. UE 2024/2690 riferito agli Allegati I pp. 8-9 e II p. 6 della direttiva; "CER" da solo sostituito da "soggetti critici (D.Lgs. 134/2024)" (regola in `_meta/convenzioni_di_naming.md`).
+
+### Backlog lint
+
+Imprecisioni non critiche note e non ancora corrette, da chiudere in un lint successivo. Righe al 2026-10-28, dopo DEC-008.
+
+- `sources/D.Lgs. 138-2024 (Decreto NIS)`, r. 45 (Art 25): le soglie di significatività sono definite dall'art. 25 c. 4, non da un DPCM.
+- `concepts/Coordinamento DORA-NIS`, r. 20 (referente CSIRT): la motivazione "DORA prevede già canali di reporting verso le ESAs / Banca d'Italia" non è attestata nelle fonti.
+- `synthesis/Coordinamento Reg UE 2024-2690 e Det ACN 379907-2025`, r. 130 (avvertenza Cloud): la parte su DORA non è verificabile, il testo del Reg. 2022/2554 non è in `raw/` (marcata "da verificare").
+- Audit del 2026-10-28: 29 imprecisioni non critiche non conservate; audit da ripetere al prossimo lint.
 
 ## Cosa non è
 
