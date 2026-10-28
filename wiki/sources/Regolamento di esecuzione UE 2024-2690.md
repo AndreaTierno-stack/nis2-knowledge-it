@@ -21,7 +21,7 @@ Il regolamento si **basa esplicitamente** su norme europee e internazionali (ISO
 
 ## Ambito soggettivo — 11 categorie di "soggetti pertinenti"
 
-Il regolamento si applica esclusivamente alle 11 categorie elencate all'**art. 1** (riprese dall'Allegato I p. 3-4 NIS2 + servizi fiduciari del reg. eIDAS):
+Il regolamento si applica esclusivamente alle 11 categorie elencate all'**art. 1** (tipologie della direttiva NIS2: Allegato I p. 8 "Infrastrutture digitali", compresi i prestatori di servizi fiduciari, e p. 9 "Gestione dei servizi TIC"; Allegato II p. 6 "Fornitori di servizi digitali"):
 
 1. Fornitori di **servizi DNS**
 2. **Registri dei nomi di dominio di primo livello** (TLD)
@@ -182,7 +182,7 @@ Per i **trust service provider**: si conteggiano anche le **parti facenti affida
 - [[concepts/NIS2]] — direttiva-madre
 - [[concepts/Ambito di applicazione NIS2]] — i soggetti pertinenti del regolamento sono un sottoinsieme dell'ambito NIS2
 - [[concepts/Soggetti essenziali e importanti]] — la distinzione resta rilevante: il regolamento si applica a entrambi se rientrano nelle 11 categorie
-- [[concepts/Settori altamente critici e critici]] — le 11 categorie del regolamento sono ricavate principalmente dall'Allegato I punti 3-4 NIS2
+- [[concepts/Settori altamente critici e critici]] — le 11 categorie del regolamento sono ricavate dall'Allegato I punti 8-9 e dall'Allegato II punto 6 NIS2
 - [[concepts/Misure di gestione del rischio cyber]] — l'art. 21 NIS2 è la base; il regolamento ne è esecutivo per le 11 categorie
 - [[concepts/Notifica di incidente significativo]] — i criteri di significatività qui sono **esaustivi** per le 11 categorie
 - [[concepts/Incidente significativo]]
@@ -199,7 +199,7 @@ Per i **trust service provider**: si conteggiano anche le **parti facenti affida
 ## Note dell'agente
 
 - *Sintesi dell'agente:* questo regolamento è la **prima manifestazione concreta** dell'art. 21 par. 5 NIS2 (la possibilità per la Commissione di adottare atti di esecuzione che dettano requisiti tecnici). Cambia il modello regolatorio NIS2 da "direttiva con recepimento nazionale flessibile" a "regime ibrido": per le 11 categorie DSP, il livello UE è direttamente applicabile e armonizzato; per gli altri settori, resta la flessibilità del recepimento nazionale.
-- *Implicazione per il NIS2 Tool — pilot Cloud:* per un fornitore italiano di servizi cloud, lo strumento deve **almeno**: (a) riconoscere se il soggetto è un fornitore di servizi cloud ai sensi della direttiva NIS2 (definizione `(33)` art. 6 NIS2); (b) segnalare che gli obblighi sostanziali (misure + significatività incidenti) sono **prima** sotto Reg. UE 2024/2690, **poi** sotto det. ACN 379907/2025 ove non in conflitto. Il tool **non deve** entrare nel merito delle misure (out-of-scope MVP), ma deve almeno disambiguare il regime applicabile.
+- *Implicazione per il NIS2 Tool — pilot Cloud:* per un fornitore italiano di servizi cloud, lo strumento deve **almeno**: (a) riconoscere se il soggetto è un fornitore di servizi cloud ai sensi della direttiva NIS2 (definizione art. 6 punto 30) NIS2, identica all'art. 2 c. 1 lett. bbb) D.Lgs. 138/2024); (b) segnalare che gli obblighi sostanziali (misure + significatività incidenti) sono **prima** sotto Reg. UE 2024/2690, **poi** sotto det. ACN 379907/2025 ove non in conflitto. Il tool **non deve** entrare nel merito delle misure (out-of-scope MVP), ma deve almeno disambiguare il regime applicabile.
 - **Open question normativa** (oggetto della synthesis dedicata): in che misura la det. ACN 379907/2025 si applica cumulativamente al Reg. UE 2024/2690 per i fornitori cloud italiani? Il Reg. UE non prevede una clausola di esaustività generale, solo per i criteri di significatività incidenti (cons. 30). Per le misure, la det. ACN potrebbe in teoria aggiungere requisiti nazionali, ma il principio dell'effetto diretto e della preminenza del diritto UE limita questo spazio. Va monitorato il primo *guidance document* ACN o ENISA che chiarisca la questione.
 - *Lacuna nota:* questo regolamento cita **CEN/TS 18026:2024** come fonte tecnica. Non è ancora ingerito in wiki (non in batch 2026-05-18). Da considerare in waves future.
 - *Lacuna nota:* il **Reg. eIDAS** (UE 910/2014, e successivo eIDAS 2.0 — UE 2024/1183) è il regime parallelo per i trust service providers (art. 14 del presente reg.). Non in wiki. Out-of-scope MVP NIS2 Tool ma rilevante per il GRC personale.

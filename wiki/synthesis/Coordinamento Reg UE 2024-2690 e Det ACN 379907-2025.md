@@ -97,9 +97,9 @@ Il Reg. UE 2024/2690 **non** ha clausola di esaustività analoga al cons. 30 per
 
 ### Punto 4 — La definizione del soggetto "fornitore di servizi di cloud computing"
 
-La qualifica come "fornitore di servizi di cloud computing" è definita all'**art. 6 punto (30)** della direttiva NIS2:
+La qualifica come "fornitore di servizi di cloud computing" è definita all'**art. 6 punto 30)** della [[sources/Direttiva (UE) 2022-2555 (NIS2)|direttiva NIS2]] e, con testo identico, all'**art. 2 c. 1 lett. bbb)** del [[sources/D.Lgs. 138-2024 (Decreto NIS)|D.Lgs. 138/2024]]:
 
-> *"servizio di cloud computing": un servizio digitale che permette al cliente di accedere su richiesta a un insieme scalabile ed elastico di risorse di calcolo condivisibili, anche se distribuite in più ubicazioni*.
+> «servizio di cloud computing»: un servizio digitale che consente l'amministrazione su richiesta di un pool scalabile ed elastico di risorse di calcolo condivisibili e l'ampio accesso remoto a quest'ultimo, anche ove tali risorse sono distribuite in varie ubicazioni.
 
 Per il NIS2 Tool **pilot Cloud**, lo strumento deve poter verificare il rientro nella definizione `(30)` NIS2 — non in una definizione ACN aggiuntiva. Il regime applicabile al soggetto qualificato come fornitore cloud è poi Reg. UE 2024/2690 + det. ACN 379907/2025 (con i caveat di cui sopra).
 
@@ -127,7 +127,7 @@ Per il NIS2 Tool **pilot Cloud**, lo strumento deve poter verificare il rientro 
 >
 > **Importante**: a livello unionale, il **Regolamento di esecuzione (UE) 2024/2690** detta requisiti tecnici delle misure e i criteri quantitativi di significatività degli incidenti (artt. 3 e 7), direttamente applicabili. A livello nazionale, la **Determinazione ACN n. 379907 del 19/12/2025** detta le specifiche di base orizzontali per tutti i soggetti NIS italiani. I due regimi si applicano in parallelo, con applicazione cumulativa per le misure tecniche e primato del diritto UE in caso di conflitto puntuale. In particolare, le soglie quantitative che fanno scattare l'obbligo di notifica degli incidenti significativi sono quelle del Regolamento UE 2024/2690, non quelle della determinazione ACN.
 >
-> **Attenzione**: un fornitore italiano di servizi cloud può ricadere simultaneamente in altri regimi italiani correlati che il presente strumento non analizza — in particolare il Perimetro di Sicurezza Nazionale Cibernetica (PSNC), il Regolamento DORA se i servizi sono ICT critici per il settore finanziario, e il Regolamento Cloud PA se i servizi sono erogati alla Pubblica Amministrazione. Ciascun regime ha obblighi propri non sostitutivi del regime NIS2.
+> **Attenzione**: un fornitore italiano di servizi cloud può ricadere simultaneamente in altri regimi italiani correlati che il presente strumento non analizza — in particolare il Perimetro di Sicurezza Nazionale Cibernetica (PSNC), il Regolamento DORA se i servizi sono ICT critici per il settore finanziario, e il Regolamento Cloud PA se i servizi sono erogati alla Pubblica Amministrazione. Ciascun regime ha obblighi propri. Per il PSNC il decreto NIS considera gli obblighi del D.L. 105/2019 almeno equivalenti ai propri e non si applica alle reti, ai sistemi e ai servizi informatici inseriti negli elenchi del perimetro (art. 33 D.Lgs. 138/2024).
 >
 > Per orientarsi negli obblighi concreti e gestire le possibili sovrapposizioni di regime, è fortemente consigliato il supporto di un consulente qualificato in normativa cybersecurity italiana."
 
@@ -138,7 +138,7 @@ Per il NIS2 Tool **pilot Cloud**, lo strumento deve poter verificare il rientro 
 | Qualifica come soggetto NIS | Direttiva NIS2 + D.Lgs. 138/2024 | Definizione art. 6(30) NIS2 |
 | Classificazione essenziale/importante | NIS2 + D.Lgs. 138/2024 | Allegati I/II + size-cap |
 | Categorizzazione (alto/medio/basso/minimo) | Det. ACN categorizzazione + modelli | [[concepts/Categorie di rilevanza]] |
-| Registrazione su piattaforma ACN | Det. ACN piattaforma e procedure | Annuale 15 apr–31 mag |
+| Registrazione su piattaforma ACN | D.Lgs. 138/2024 art. 7 + Det. ACN piattaforma e procedure | Registrazione 1° gen–28 feb (art. 7 c. 1); aggiornamento annuale 15 apr–31 mag (art. 7 c. 4) |
 | **Misure tecniche e metodologiche** | **Reg. UE 2024/2690 (Allegato) + Det. ACN 379907/2025** | **Applicazione cumulativa (3a) con primato UE sui conflitti puntuali (3c) — open question normativa** |
 | **Criteri di significatività incidenti** | **Reg. UE 2024/2690 artt. 3 + 7 (esaustivi)** | **NON si applicano gli IS-1..4 della det. ACN per i fornitori cloud** |
 | Tempistiche di notifica (24h/72h/1 mese) | Direttiva NIS2 art. 23 par. 4 → D.Lgs. 138/2024 art. 25 | Procedurali nazionali |
