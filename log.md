@@ -807,3 +807,14 @@ Pagine aggiornate:
 - [[synthesis/Coordinamento Reg UE 2024-2690 e Det ACN 379907-2025]] r. 130: marker "[da verificare: testo del Reg. 2022/2554 non in raw/]" dopo la parte DORA dell'avvertenza Cloud; testo invariato.
 - `README.md` (Stato di verifica): contatore "da verificare" 20 → 21 (riga del nodo di coordinamento: 1 → 2); nuova sottosezione "Backlog lint" con 3 voci (D.Lgs. 138/2024 r. 45, Coordinamento DORA-NIS r. 20, Coordinamento 2690-379907 r. 130) e la riga sull'audit del 2026-10-28.
 Note: `nis2-check/docs/verifications/2026-10-28-cloud-energia-dora.md` non esiste; le 29 imprecisioni non critiche non sono conservate, audit da ripetere al prossimo lint. Righe del backlog riferite allo stato dopo DEC-008 (nel report di lettura: 40, 16, 129). Contatori `index.md` invariati.
+
+## [2026-10-30] lint | Correzioni minime dopo il registro citazioni del corpus 0.6.0 (DEC-009)
+Contesto: correzioni proposte in `nis2-check/docs/verifications/2026-10-28-registro-citazioni.md` più una voce nuova (V8). Verifica-poi-azione sul testo in `raw/` (estrazione `pdftotext -enc UTF-8 -layout` di FAQ Settori, FAQ Ambito, FAQ Profili generali, `Decreto NIS2.pdf`, `detacn_piattaformanis_251218-v9_signed.pdf`); citazioni nuove confrontate per sottostringa, spazi e a capo normalizzati. Nessun ingest, un commit per voce (6b544f5..c2779de). Report: `nis2-check/docs/verifications/2026-10-30-lint-kb.md`.
+Pagine aggiornate:
+- V1, V2, V6, V7: [[sources/FAQ NIS - Settori, sottosettori e tipologie di soggetto]] (interconnessione diretta in `A1.9.3`-`A1.9.4`; etichette `A1.8.1`, `A1.9.1`; "art. 3 cc. 8 e 13" alle righe `A2.7.2` e `A4.1`; ASL `A3.c.4.1` nel Settore PA e nelle Note).
+- V3, V6: [[sources/D.Lgs. 138-2024 (Decreto NIS)]] (art. 7 c. 1 lett. d) testuale; "(c. 1)" nella riga Ambito).
+- V4: [[sources/Determinazione ACN piattaforma e procedure - 2026-04-13]] (art. 11 c. 2 lett. a)-g), lett. g) testuale, lett. f) rettificata).
+- V5: [[sources/FAQ NIS - Profili generali]] (passo di `GEN.6` nella riga art. 7).
+- V8: [[sources/FAQ NIS - Ambito]] (nota redazionale in `AMB.GI.2`), [[concepts/Clausola di salvaguardia]] (riga "Chi decide").
+- `README.md` (Stato di verifica): riga datata; Backlog lint con una voce nuova (Clausola di salvaguardia rr. 30 e 54) e righe riallineate (D.Lgs. r. 45 → 46). `index.md`: riga "Ultimo aggiornamento". `updated: 2026-10-30` nei nodi toccati (aggiunto dove assente).
+Note: esiti in [[_meta/decision_log]] DEC-009. Premessa di V8 corretta sul testo (art. 11 c. 4 lett. c)). Corpus non toccato. Contatori `index.md` invariati.

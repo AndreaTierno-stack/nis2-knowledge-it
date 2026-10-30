@@ -72,13 +72,16 @@ A questi si aggiungono 4 punti marcati "da chiarire" (D.Lgs. 138-2024, FAQ Aggio
 
 **Correzione del 2026-10-28:** correzioni di contenuto dalla lettura del 2026-10-28, ciascuna verificata sul testo in `raw/` (DEC-008). Sette nodi omettevano i soggetti critici (art. 3 c. 5 lett. a), art. 6 c. 1 lett. b) D.Lgs. 138/2024) dagli elenchi "a prescindere dalla dimensione": reintegrati, con c. 9 e c. 10. Il nodo D.Lgs. 138/2024 riporta ora il testo di art. 3 cc. 5, 9, 10, 14, 15, art. 2 c. 1 lett. bbb) e art. 40 c. 5 lett. a), con la numerazione dei Capi IV-V corretta. DORA distingue la legge (art. 3 c. 14: settori 3-4, art. 17 e Capi IV-V) dagli esoneri per determinazione (Det. 127437/2026). Cloud PA allineato all'art. 4 Det. 155238/2026; Reg. UE 2024/2690 riferito agli Allegati I pp. 8-9 e II p. 6 della direttiva; "CER" da solo sostituito da "soggetti critici (D.Lgs. 134/2024)" (regola in `_meta/convenzioni_di_naming.md`).
 
+**Lint del 2026-10-30:** otto correzioni minime in sei nodi, verificate sul testo in `raw/` (DEC-009), dopo l'audit del registro citazioni del tool. FAQ Settori: etichette `A1.8.1` e `A1.9.1`, interconnessione diretta esplicita anche in `A1.9.3`-`A1.9.4` (criterio in `A1.9.2`), rinvii "art. 3 cc. 8 e 13", ASL `A3.c.4.1` con registrazione "per entrambi i settori e le tipologie". D.Lgs. 138/2024: art. 7 c. 1 lett. d) testuale, "(c. 1)" nella riga dell'ambito. Det. 127437/2026: art. 11 c. 2 lett. a)-g). FAQ Profili generali: passo di `GEN.6` sulla selezione di settori e tipologia. Salvaguardia dimensionale (DPCM 221/2024): l'ACN applica (art. 3 c. 12), le Autorità di settore individuano (art. 11 c. 4 lett. c)); nota redazionale in FAQ Ambito `AMB.GI.2`.
+
 ### Backlog lint
 
-Imprecisioni non critiche note e non ancora corrette, da chiudere in un lint successivo. Righe al 2026-10-28, dopo DEC-008.
+Imprecisioni non critiche note e non ancora corrette, da chiudere in un lint successivo. Righe al 2026-10-30, dopo DEC-009.
 
-- `sources/D.Lgs. 138-2024 (Decreto NIS)`, r. 45 (Art 25): le soglie di significatività sono definite dall'art. 25 c. 4, non da un DPCM.
+- `sources/D.Lgs. 138-2024 (Decreto NIS)`, r. 46 (Art 25): le soglie di significatività sono definite dall'art. 25 c. 4, non da un DPCM.
 - `concepts/Coordinamento DORA-NIS`, r. 20 (referente CSIRT): la motivazione "DORA prevede già canali di reporting verso le ESAs / Banca d'Italia" non è attestata nelle fonti.
 - `synthesis/Coordinamento Reg UE 2024-2690 e Det ACN 379907-2025`, r. 130 (avvertenza Cloud): la parte su DORA non è verificabile, il testo del Reg. 2022/2554 non è in `raw/` (marcata "da verificare").
+- `concepts/Clausola di salvaguardia`, rr. 30 e 54 (rilievo del 2026-10-30): l'art. 12 della Det. 127437/2026 vi è descritto come "modalità riservate" per sicurezza nazionale e difesa; sul testo l'art. 12 disciplina la salvaguardia dimensionale (DPCM 221/2024).
 - Audit del 2026-10-28: 29 imprecisioni non critiche non conservate; audit da ripetere al prossimo lint.
 
 ## Cosa non è

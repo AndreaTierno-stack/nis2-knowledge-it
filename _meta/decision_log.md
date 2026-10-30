@@ -137,3 +137,29 @@ Convenzione stato: `ATTUATA` | `PIANIFICATA` | `REVOCATA`.
 **Nota:** seconda ricorrenza dello schema DEC-007: un'omissione nata in sintesi si è propagata in sette nodi e nel corpus del tool. *Inferenza dell'agente sull'origine:* la mappa size-blind è stata costruita sulla FAQ Settori, che non tratta i soggetti critici, e poi letta come elenco completo dell'art. 3 c. 5. Contromisura per i lint successivi: ogni elenco "a prescindere dalla dimensione" si confronta con il testo dell'art. 3 cc. 5, 6, 8, 9 e 10, ora nel nodo D.Lgs.
 
 **Impatto operativo:** `index.md` solo nelle righe "Ultimo aggiornamento", FAQ Ambito e Coordinamento DORA-NIS; contatori invariati. README, sezione "Stato di verifica": riga datata; il "Backlog lint" con le 29 imprecisioni non critiche della lettura è da aggiungere. Voce corrispondente in `log.md`. Corpus non modificato: allineamento da registrare come punto aperto in `nis2-check/docs/STATUS.md`.
+
+---
+
+## [2026-10-30] DEC-009 — Lint 2026-10-30: correzioni minime dopo il registro citazioni del corpus 0.6.0
+
+**Stato:** ATTUATA (2026-10-30)
+
+**Classe:** correzione di contenuto (stessa classe di DEC-006, DEC-007 parte B, DEC-008). Non è un ingest: nessuna fonte nuova, nessun nodo creato, credito stop-and-ingest non usato (residuo 1).
+
+**Origine:** correzioni minime proposte e non eseguite in `nis2-check/docs/verifications/2026-10-28-registro-citazioni.md`, più una voce nuova (V8). Report di verifica: `nis2-check/docs/verifications/2026-10-30-lint-kb.md`.
+
+**Nodi (6):** [[sources/FAQ NIS - Settori, sottosettori e tipologie di soggetto]], [[sources/D.Lgs. 138-2024 (Decreto NIS)]], [[sources/Determinazione ACN piattaforma e procedure - 2026-04-13]], [[sources/FAQ NIS - Profili generali]], [[sources/FAQ NIS - Ambito]], [[concepts/Clausola di salvaguardia]]. Scope invariato.
+
+**Voci ed esiti** (verifica sul PDF in `raw/`, estrazione `pdftotext -enc UTF-8`):
+- V1, interconnessione diretta: **attestato** in `A1.9.2` (criterio ed esempi, p. 16); `A1.9.3` e `A1.9.4` riprendono il requisito con rinvio ad `A1.9.2` (p. 17), ora esplicito. Citazione in coda invariata.
+- V2, etichette `A1.8.1` e `A1.9.1`: **attestato**; etichette aggiunte a cluster, giurisdizione e tipologie.
+- V3, art. 7 c. 1 lett. d) D.Lgs. 138/2024: **attestato**, pertinente; testuale nel nodo D.Lgs.
+- V4, art. 11 c. 2 lett. g) Det. 127437/2026: **attestato**; lettere a)-g) esplicite, lett. g) in testo; rettifica della lett. f) (per la PA facoltativi fatturato e bilancio, non i dipendenti).
+- V5, `GEN.6`: **attestato in parte**: selezione di "uno o più settori/sottosettori" e della "relativa tipologia"; nessun riferimento a "tutte le tipologie". Passo testuale nella tabella degli obblighi.
+- V6, rinvii: **rettificato** (forma): "(c. 1)" nel nodo D.Lgs.; "art. 3 cc. 8 e 13" in due righe della FAQ Settori.
+- V7, ASL `A3.c.4.1`: **rettificato**: "doppia registrazione" → registrazione "per entrambi i settori e le tipologie di soggetto cui appaiono riconducibili".
+- V8, salvaguardia dimensionale (DPCM 221/2024): **rettificato**. La frase di `AMB.GI.2` è della FAQ: testo lasciato, nota redazionale datata. Il decreto distingue l'applicazione dell'ACN (art. 3 c. 12) dall'individuazione delle Autorità di settore (art. 11 c. 4 lett. c)); "d'intesa" non attestato per la salvaguardia, riga "Chi decide" riformulata.
+
+**Nota:** la premessa di V8 ("il decreto attribuisce l'applicazione all'ACN", quindi divergenza piena con la FAQ) era incompleta: l'art. 11 c. 4 lett. c), richiamato dalla stessa FAQ, assegna alle Autorità di settore l'individuazione dei soggetti cui si applica la deroga. La nota registra entrambe le attribuzioni del decreto, non una divergenza piena. Rilievo nuovo, non corretto (fuori dalle voci): nel concept Clausola di salvaguardia, righe 30 e 54, l'art. 12 della Det. 127437/2026 è descritto come "modalità riservate" per sicurezza nazionale e difesa, ma l'art. 12 disciplina la salvaguardia dimensionale; nel backlog del README.
+
+**Impatto operativo:** `index.md` solo nella riga "Ultimo aggiornamento", contatori invariati. README, sezione "Stato di verifica": riga datata e una voce nel Backlog lint. Voce corrispondente in `log.md`. Corpus non modificato: `faq_a1_9_2` resta corretto per il criterio; ID ora attestabili (`dlgs_138_2024_art_7_c_1_lett_d`, `det_piattaforma_127437_2026_art_11_c_2_lett_g`, `faq_a1_8_1`, `faq_a1_9_1`, `dlgs_138_2024_art_3_c_1`; `faq_gen_6` solo per la selezione di settori e tipologia) da valutare per il corpus 0.6.1 (`nis2-check/docs/STATUS.md`, punto 9).
