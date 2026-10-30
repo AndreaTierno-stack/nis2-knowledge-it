@@ -8,7 +8,7 @@ url: https://www.acn.gov.it/portale/faq-nis-settori-sottosettori-e-tipologie-di-
 author: Agenzia per la Cybersicurezza Nazionale
 date_published: 2026
 date_ingested: 2026-04-29
-updated: 2026-10-28
+updated: 2026-10-30
 tags: [NIS2, ACN, FAQ, settori, sottosettori, allegato I, allegato II, allegato III, allegato IV, tipologie di soggetto]
 ---
 
@@ -122,14 +122,14 @@ Dir. 1991/271/CEE (D.Lgs. 152/1999): imprese con attività **prevalente** di rac
 
 **NON rientra**: assistenza su dispositivi del cliente o tramite istruzioni verbali/scritte al personale cliente.
 
-**Fornitori di servizi gestiti (`A1.9.3`)** — esempi (non esaustivo):
+**Fornitori di servizi gestiti (`A1.9.3`)** — assistenza o amministrazione attiva erogata "tramite una interconnessione diretta tra la rete del fornitore e quella del cliente" (rinvio a `A1.9.2` per il criterio e gli esempi); esempi di servizi (non esaustivo):
 - installazione hardware/software;
 - aggiornamento configurazione/software/firmware (anche di sicurezza);
 - gestione software o servizi di piattaforma;
 - monitoraggio;
 - amministrazione.
 
-**Fornitori di servizi di sicurezza gestiti (`A1.9.4`)** — **13 servizi tipici** (elenco non esaustivo):
+**Fornitori di servizi di sicurezza gestiti (`A1.9.4`)** — stesso requisito dell'interconnessione diretta tra rete del fornitore e rete del cliente; **13 servizi tipici** (elenco non esaustivo):
 - **NOC** (Network Operation Centre);
 - **MDR** (Managed Detection and Response);
 - **IDS** (Intrusion Detection Systems);
