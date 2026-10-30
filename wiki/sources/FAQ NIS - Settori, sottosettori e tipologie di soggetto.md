@@ -231,7 +231,7 @@ Reg. 178/2002/CE (D.Lgs. 190/2006): imprese alimentari che si occupano di distri
 - **Aziende ospedaliere/ospedaliero-universitarie (`A3.c.4.3`–`A3.c.4.4`)**: 
   - Rientrano nel settore **Sanitario** (Allegato I p. 5), **NON** ASL.
   - Sono **soggetti distinti dalle ASL** di appartenenza → **registrazione autonoma**.
-- **ASL (`A3.c.4.1`)**: soggetti **importanti** ex art. 3 c. 6 + 6 c. 3; se **>medie imprese** anche prestatore sanitario → essenziali. **Doppia registrazione**: per Allegato III (PA) + Allegato I p. 5 (Sanitario).
+- **ASL (`A3.c.4.1`)**: soggetti **importanti** ex art. 3 c. 6 + 6 c. 3; come prestatori di assistenza sanitaria (Allegato I p. 5) importanti, **essenziali** solo se superano i massimali della media impresa. **Registrazione/aggiornamento ex art. 7 "per entrambi i settori e le tipologie di soggetto cui appaiono riconducibili"**: Allegato III (PA) + Allegato I p. 5 (Sanitario).
 - **ASL "fuori ambito" sulla piattaforma (`A3.c.4.5`)**: bug/falsa risposta della piattaforma se la ASL si registra solo per Allegato I p. 5 dichiarando dimensioni inferiori a piccola impresa — la classificazione "fuori ambito" **non è corretta** (ASL rientra comunque per Allegato III).
 - **Aziende Pubbliche di Servizi alla Persona (`A3.c.4.2`)**: NON in Allegato III; possono rientrare in Sanitario via Allegato I se prestano assistenza sanitaria (anche residuale) e superano massimali piccola impresa.
 - **Enti a struttura associativa (`A3.d.3.1`–`A3.d.3.2`)**: solo i soggetti dell'omonima categoria nell'elenco ISTAT.
@@ -325,7 +325,7 @@ Reg. 178/2002/CE (D.Lgs. 190/2006): imprese alimentari che si occupano di distri
   - Aziende Pubbliche di Servizi alla Persona (Allegato III no, possibile via Allegato I p. 5) (`A3.c.4.2`);
   - Ordini/collegi professionali (Allegato III no, possibile via Allegato II) (`A3.d.3.2`).
 - **Doppia/tripla registrazione obbligatoria** in alcuni casi tipici:
-  - **ASL** = Allegato III + Allegato I p. 5 (Sanitario);
+  - **ASL** = Allegato III + Allegato I p. 5 (Sanitario), registrazione per entrambi i settori e le tipologie (`A3.c.4.1`);
   - **Consigli regionali/provinciali** = registrazione **separata** dall'Ente (`A3.b.1.1`);
   - **Aziende ospedaliere/universitarie** = registrazione **autonoma** dall'ASL territoriale, in Allegato I p. 5 (`A3.c.4.4`);
   - **Imprese >piccola con servizi TIC infragruppo** = doppia inclusione settore TIC + art. 3 c. 10.
