@@ -214,7 +214,7 @@ Reg. 178/2002/CE (D.Lgs. 190/2006): imprese alimentari che si occupano di distri
 ### Settore 7 (Allegato II) — Ricerca (`A2.7.1`–`A2.7.2`)
 
 **Organizzazioni di ricerca** = obiettivo principale ricerca applicata o sviluppo sperimentale per sfruttamento commerciale (art. 2 c. 1 lett. mmm D.Lgs. 138/2024) — **esclusi gli istituti di istruzione**.
-- **Istituti di istruzione che svolgono ricerca**: in linea generale **NON** rientrano nel settore Ricerca; possono essere individuati come essenziali/importanti **via Allegato IV** su proposta MUR (artt. 3 c. 8 e 13, art. 11 c. 4 lett. b).
+- **Istituti di istruzione che svolgono ricerca**: in linea generale **NON** rientrano nel settore Ricerca; possono essere individuati come essenziali/importanti **via Allegato IV** su proposta MUR (art. 3 cc. 8 e 13, art. 11 c. 4 lett. b)).
 
 ### Settore PA (Allegato III) — `A3.1`–`A3.d.3.2`
 
@@ -239,7 +239,7 @@ Reg. 178/2002/CE (D.Lgs. 190/2006): imprese alimentari che si occupano di distri
 
 ### Allegato IV — Individuazione autoritativa (`A4.1`–`A4.3.5`)
 
-**Meccanismo (`A4.1`)** — art. 3 c. 8 + 13 D.Lgs. 138/2024:
+**Meccanismo (`A4.1`)** — art. 3 cc. 8 e 13 D.Lgs. 138/2024:
 - Soggetti individuati con **Determinazioni ACN** su proposta delle **Autorità di settore NIS**, sentito il **Tavolo per l'attuazione**.
 - L'**Autorità nazionale competente NIS notifica** ai soggetti l'individuazione.
 - Solo i soggetti notificati sono tenuti alla registrazione ex Allegato IV.
