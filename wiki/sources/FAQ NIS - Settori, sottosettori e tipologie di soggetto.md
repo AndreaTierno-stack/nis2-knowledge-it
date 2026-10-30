@@ -85,7 +85,7 @@ Dir. 1991/271/CEE (D.Lgs. 152/1999): imprese con attività **prevalente** di rac
 
 ### Settore 8 — Infrastrutture digitali (`A1.8.1`–`A1.8.6`)
 
-**5 cluster di tipologie** con regimi dimensionali differenziati:
+**5 cluster di tipologie** (`A1.8.1`) con regimi dimensionali differenziati:
 
 1. **IXP** (internet exchange point) — superamento massimali piccola impresa → importante (essenziale se >medie).
 2. **Servizi fiduciari** (Reg. eIDAS 910/2014 sostituito da eIDAS-2 Reg. 2024/1183):
@@ -95,7 +95,7 @@ Dir. 1991/271/CEE (D.Lgs. 152/1999): imprese con attività **prevalente** di rac
 4. **DNS + TLD registry**: **essenziali a prescindere dalla dimensione** (anche piccole/micro).
 5. **Cloud + data center + CDN**: superamento massimali piccola impresa → importante (essenziale se >medie).
 
-**Giurisdizione nazionale per i cluster 4 e 5** (DNS/TLD/registry, cloud/DC/CDN) — art. 5 D.Lgs. 138/2024:
+**Giurisdizione nazionale per i cluster 4 e 5** (`A1.8.1`; DNS/TLD/registry, cloud/DC/CDN) — art. 5 D.Lgs. 138/2024:
 - stabilimento solo IT (anche se ha stabilimenti extra-UE);
 - stabilimento principale in IT (multi-Stato membro);
 - nessuno stabilimento UE + offerta in IT + designazione rappresentante UE in IT.
@@ -113,7 +113,7 @@ Dir. 1991/271/CEE (D.Lgs. 152/1999): imprese con attività **prevalente** di rac
 
 ### Settore 9 — Gestione dei servizi TIC b2b (`A1.9.1`–`A1.9.9`)
 
-**Tipologie**: fornitori di servizi gestiti + fornitori di servizi di sicurezza gestiti — superamento massimali piccola impresa + giurisdizione IT (stesso schema cloud).
+**Tipologie** (`A1.9.1`): fornitori di servizi gestiti + fornitori di servizi di sicurezza gestiti — superamento massimali piccola impresa + giurisdizione IT (stesso schema cloud).
 
 **"Assistenza o amministrazione attiva" (`A1.9.2`)** = svolta tramite **interconnessione diretta** tra rete fornitore e rete cliente. Esempi:
 - domini federati;
