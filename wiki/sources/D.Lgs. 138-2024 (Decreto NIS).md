@@ -9,7 +9,7 @@ provenance_note: "Riscontro del 2026-10-27 su Normattiva, testo vigente (urn:nir
 author: Repubblica Italiana — Governo
 date_published: 2024-09-04
 date_ingested: 2026-04-29
-updated: 2026-10-28
+updated: 2026-10-30
 tags: [nis2, italia, decreto-legislativo, cybersicurezza, normativa-primaria, attuazione]
 aliases: [Decreto 138, Decreto NIS, D.Lgs. 138 del 2024, Decreto legislativo 138/2024]
 ---
@@ -23,6 +23,7 @@ Decreto legislativo 4 settembre 2024, n. 138, pubblicato in Gazzetta Ufficiale i
 - **Architettura istituzionale unificata**: ACN concentra tre ruoli (autorità competente NIS, single point of contact, CSIRT nazionale) — scelta che differenzia il modello italiano da molti altri Stati membri.
 - **Tavolo NIS** (Art 11): foro permanente di raccordo tra ACN e le 9 [[entities/Autorità di settore NIS|autorità di settore]] (Min. Difesa, Affari esteri, Interno, Giustizia, Economia e finanze, Imprese e Made in Italy, Salute, Ambiente e sicurezza energetica, Infrastrutture e trasporti).
 - **[[concepts/Identificazione dei soggetti NIS|Identificazione]]** (Art 7): meccanismo annuale di registrazione obbligatoria sulla piattaforma digitale ACN, finestra **1° gennaio – 28 febbraio**; ACN comunica a ciascun soggetto entro **31 marzo** se è essenziale o importante; gli obblighi decorrono dal **1° gennaio dell'anno successivo** alla classificazione.
+  - **Art. 7, c. 1, lett. d)** (testo): tra le informazioni che i soggetti forniscono o aggiornano in registrazione, "ove applicabile, i pertinenti settori, sottosettori e tipologie di soggetto di cui agli allegati I, II, III e IV". Il contenuto della dichiarazione in piattaforma è nell'art. 11 c. 2 della [[sources/Determinazione ACN piattaforma e procedure - 2026-04-13|Det. ACN 127437/2026]].
 - **Ambito (Art 3)**: soggetti pubblici e privati delle tipologie degli Allegati I-IV (Allegato I: 10 settori altamente critici; Allegato II: 7 settori critici; Allegato III: pubbliche amministrazioni; Allegato IV: ulteriori tipologie), sopra i massimali delle piccole imprese per gli Allegati I-II (c. 2). Due canali di rientro indipendenti dalla dimensione:
   - **Per legge**: c. 5 (soggetti critici ex direttiva (UE) 2022/2557, reti e servizi di comunicazione elettronica, prestatori di servizi fiduciari, registri TLD e DNS, servizi di registrazione dei nomi di dominio) e c. 6 (PA dell'**Allegato III lett. a)-d)**); anche c. 10 (imprese collegate a un soggetto essenziale o importante che soddisfano uno dei criteri delle lett. a)-d)).
   - **Per individuazione dell'ACN**, su proposta delle autorità di settore e con notifica al soggetto (c. 13): c. 8 (tipologie dell'Allegato IV) e c. 9 (soggetti degli Allegati I-IV che soddisfano uno dei criteri delle lett. a)-f), es. unico fornitore nazionale, impatto significativo, rischio sistemico).
