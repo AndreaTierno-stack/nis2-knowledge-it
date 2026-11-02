@@ -163,3 +163,19 @@ Convenzione stato: `ATTUATA` | `PIANIFICATA` | `REVOCATA`.
 **Nota:** la premessa di V8 ("il decreto attribuisce l'applicazione all'ACN", quindi divergenza piena con la FAQ) era incompleta: l'art. 11 c. 4 lett. c), richiamato dalla stessa FAQ, assegna alle Autorità di settore l'individuazione dei soggetti cui si applica la deroga. La nota registra entrambe le attribuzioni del decreto, non una divergenza piena. Rilievo nuovo, non corretto (fuori dalle voci): nel concept Clausola di salvaguardia, righe 30 e 54, l'art. 12 della Det. 127437/2026 è descritto come "modalità riservate" per sicurezza nazionale e difesa, ma l'art. 12 disciplina la salvaguardia dimensionale; nel backlog del README.
 
 **Impatto operativo:** `index.md` solo nella riga "Ultimo aggiornamento", contatori invariati. README, sezione "Stato di verifica": riga datata e una voce nel Backlog lint. Voce corrispondente in `log.md`. Corpus non modificato: `faq_a1_9_2` resta corretto per il criterio; ID ora attestabili (`dlgs_138_2024_art_7_c_1_lett_d`, `det_piattaforma_127437_2026_art_11_c_2_lett_g`, `faq_a1_8_1`, `faq_a1_9_1`, `dlgs_138_2024_art_3_c_1`; `faq_gen_6` solo per la selezione di settori e tipologia) da valutare per il corpus 0.6.1 (`nis2-check/docs/STATUS.md`, punto 9).
+
+## [2026-11-02] DEC-010 — Correzioni dalla review avversaria di nis2-check (art. 6 c. 1 lett. a), FAQ A1.1.a.3)
+
+**Stato:** ATTUATA (2026-11-02)
+
+**Classe:** correzione di contenuto da fonte già in `raw/` (stessa classe di DEC-009). Non è un ingest: nessuna fonte nuova, nessun nodo creato, credito stop-and-ingest non usato (residuo 1).
+
+**Origine:** triage della review avversaria di nis2-check (`nis2-check/docs/verifications/2026-11-02-review-avversaria.md`, F06 e F08), decisione dell'autore del 2026-11-02 (corpus 0.13.0, B3 e A3).
+
+**Nodi (2):** [[sources/D.Lgs. 138-2024 (Decreto NIS)]], [[sources/FAQ NIS - Settori, sottosettori e tipologie di soggetto]]. Scope invariato.
+
+**Voci ed esiti** (verifica sui PDF in `raw/articles/`, estrazione `pdftotext -layout`):
+- Art. 6 c. 1 lett. a) D.Lgs. 138/2024: **attestato** testualmente nella riga "Qualifiche (art. 6)": essenziali "i soggetti di cui all'allegato I che superano i massimali per le medie imprese di cui all'articolo 2, paragrafo 1, dell'allegato della raccomandazione 2003/361/CE" (`Decreto NIS2.pdf`). Nel corpus: ID `dlgs_138_2024_art_6_c_1_lett_a`.
+- FAQ ACN `A1.1.a.3`: il nodo riassumeva con "non rientrano automaticamente"; il testo ufficiale dice che i punti vendita con punti di ricarica "non rientrano nella definizione della tipologia di soggetto di 'gestore di un punto di ricarica'" e che "rientrano in tale definizione solo i soggetti di cui all'articolo 5 del dm MASE n. 106 del 16 marzo 2023, ovvero tutti quei soggetti obbligati a registrarsi" sulla PUN. Due righe del nodo allineate al testo (elenco delle tipologie e indice dei codici).
+
+**Effetti:** nodi con `updated: 2026-11-02`. Corpus nis2-check 0.13.0: citazione nuova e testo della mappatura PUN allineati.

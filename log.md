@@ -818,3 +818,9 @@ Pagine aggiornate:
 - V8: [[sources/FAQ NIS - Ambito]] (nota redazionale in `AMB.GI.2`), [[concepts/Clausola di salvaguardia]] (riga "Chi decide").
 - `README.md` (Stato di verifica): riga datata; Backlog lint con una voce nuova (Clausola di salvaguardia rr. 30 e 54) e righe riallineate (D.Lgs. r. 45 → 46). `index.md`: riga "Ultimo aggiornamento". `updated: 2026-10-30` nei nodi toccati (aggiunto dove assente).
 Note: esiti in [[_meta/decision_log]] DEC-009. Premessa di V8 corretta sul testo (art. 11 c. 4 lett. c)). Corpus non toccato. Contatori `index.md` invariati.
+
+## [2026-11-02] fix | Art. 6 c. 1 lett. a) e FAQ A1.1.a.3 sul testo in raw/ (DEC-010)
+
+- [[sources/D.Lgs. 138-2024 (Decreto NIS)]]: art. 6 c. 1 lett. a) testuale nella riga Qualifiche.
+- [[sources/FAQ NIS - Settori, sottosettori e tipologie di soggetto]]: A1.1.a.3 con la formula del testo ufficiale (definizione della tipologia, obbligo di registrazione PUN).
+Note: esiti in [[_meta/decision_log]] DEC-010. Nessun ingest, credito invariato (1).
