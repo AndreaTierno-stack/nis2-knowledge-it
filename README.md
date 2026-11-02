@@ -86,7 +86,7 @@ Imprecisioni non critiche note e non ancora corrette, da chiudere in un lint suc
 
 ## Cosa non è
 
-Non è uno strumento di valutazione: non dice se un soggetto rientra o meno nel perimetro NIS2. Un tool di pre-screening che usa questo corpus è in sviluppo in un repository separato e non è ancora rilasciato.
+Non è uno strumento di valutazione: non dice se un soggetto rientra o meno nel perimetro NIS2. Un tool di pre-screening che usa questo corpus, Ambito NIS2 (anteprima di studio, v0.1.0 del 2026-11-02), è su <https://ambito-nis2.vercel.app>, con il codice nel repository [nis2-check](https://github.com/AndreaTierno-stack/nis2-check).
 
 ## Licenza
 
